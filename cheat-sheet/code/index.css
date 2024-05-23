@@ -51,7 +51,7 @@ header h2 {
   
   .card-container{
     display: flex; 
-    justify-content: space-between; 
+    justify-content: space-around; 
     flex-wrap: nowrap; 
     overflow: hidden;
     margin-top: 10px;
