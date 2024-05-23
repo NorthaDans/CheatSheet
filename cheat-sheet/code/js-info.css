@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(255, 253, 208);
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: "Jacquard 12", 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 100px;
+    color: rgb(255, 155, 0);
+    text-align: center;
+    margin: 30px 15px;
+}
+
+header h2 {
+    font-family: "Goudy Bookletter 1911", 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(255, 193, 5);
+    text-align: center;
+    margin: 30px 15px 10px;
+}

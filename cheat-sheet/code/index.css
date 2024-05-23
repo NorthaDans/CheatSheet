@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(255, 253, 208);
+}
+
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+header h1 {
+    font-family: "Jacquard 12", 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 100px;
+    color: rgb(255, 155, 0);
+    text-align: center;
+    margin: 30px 15px 30px;
+}
+
+header h2 {
+    font-family: "Goudy Bookletter 1911", 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(255, 193, 5);
+    text-align: center;
+    margin: 30px 15px 10px;
+}
+
+.jacquard-12-regular {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.goudy-bookletter-1911-regular {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .card-container{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: nowrap; 
+    overflow: hidden;
+    padding: 0 10px;
+    margin-top: 10px;
+    width: 90%; 
+    margin: 0 auto;
+}
+
+.card{
+    background-color: rgb(240, 240, 240);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 20 px;
+    flex: 0 1 calc(33.333% - 40px);
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+    @media (max-width: 768px) {
+        .card-container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
