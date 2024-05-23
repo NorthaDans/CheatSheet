@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jaro-font {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.banner {
+    height: 200px;
+    max-width: 100%;
+    background-image: url("../../images/tomatoes-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 8vw;
+    letter-spacing: 0.03em;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: black;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        font-size: 12vw;
+    }
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 255px;
+}
+
+.card {
+    width: 25%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.card:nth-child(2) {
+    width: 35%;
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card:nth-child(2) img {
+    margin-top: -50px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card-content {
+    padding: 50px;
+}
+
+.card-content h3 {
+    margin-bottom: 5px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    color: antiquewhite;
+    margin-top: -0.5em;
+}
+
+figcaption h1 {
+    font-size: 8vw;
+    opacity: 80%;
+    letter-spacing: 0.05em;
+}
+
+figcaption h2 {
+    font-size: 3vw;
+    opacity: 80%;
+    letter-spacing: 0.05em;
+}
+
+
