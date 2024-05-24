@@ -38,27 +38,35 @@ header h2 {
 }
 
 .html-history {
-    font-family: "Goudy Bookletter 1911", 'Times New Roman', Times, serif;
     text-align: left;
     margin-left: 40px;
 }
 
 .html-history h3 {
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
-    margin: 40px 30px 30px;
+    margin: 20px 30px 10px;
 }
 
 .html-history p {
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     margin: 40px 30px 30px;
 }
 
 .html-history h4 {
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    margin: 40px 30px 30px;
+    margin: 40px 30px 20px;
 }
 
 .html-history li {
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    margin: 15px 80px;
+    margin: 10px 80px;
+}
+
+.html-history b {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
 }
