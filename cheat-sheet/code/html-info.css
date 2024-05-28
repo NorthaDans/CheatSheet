@@ -15,7 +15,7 @@ header h1 {
     font-size: 100px;
     color: rgb(229, 80, 0);
     text-align: center;
-    margin: 10px 15px 10px;
+    margin: 30px 15px 10px;
 }
 
 header h2 {
@@ -33,7 +33,7 @@ header .return-main {
     font-size: 15px;
     color: black;
     text-align: center;
-    margin: 10px 10px;
+    margin: 20px 10px 40px;
 }
 
 h1 {
@@ -47,12 +47,14 @@ h2 {
     font-size: 50px;
 }
 
-.color-wall-html {
+.color-wall {
     width: 80%;
     height: auto;
     background-color: rgb(252, 249, 195);
-    border: 2px;
-    border-style: groove;
+    border: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border-style: outset;
+    margin: 40px;
     padding: 20px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -62,42 +64,48 @@ h2 {
     gap: 20px;
 }
 
-.color-wall-html section {
+.color-wall section {
     width: 100%;
     text-align: left;
     padding: 10px 10px;
 }
 
-.html-history {
+.nav-color-wall {
+    border-style: solid;
+    padding: 20px;
+    margin-right: 700px;
+}
+
+.navigation {
     text-align: left;
     margin-left: 40px;
 }
 
-.html-history h3 {
+.navigation h3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
     margin: 20px 30px 10px;
 }
 
-.html-history p {
+.navigation p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     margin: 40px 30px 30px;
 }
 
-.html-history h4 {
+.navigation h4 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
     margin: 40px 30px 20px;
 }
 
-.html-history li {
+.navigation li {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     margin: 10px 80px;
 }
 
-.html-history b {
+.navigation b {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
 }

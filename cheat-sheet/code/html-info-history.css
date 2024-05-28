@@ -15,7 +15,7 @@ header h1 {
     font-size: 100px;
     color: rgb(229, 80, 0);
     text-align: center;
-    margin: 30px 15px 30px;
+    margin: 30px 15px 20px;
 }
 
 header h2 {
@@ -33,7 +33,7 @@ font-weight: 600;
 font-size: 15px;
 color: black;
 text-align: center;
-margin: 10px 10px;
+margin: 20px 10px 40px;
 }
 
 h1 {
@@ -50,8 +50,10 @@ h2 {
     width: 80%;
     height: auto;
     background-color: rgb(252, 249, 195);
-    border: 2px;
-    border-style: groove;
+    border: 8px;
+    box-shadow: 4px;
+    border-style: outset;
+    margin: 40px;
     padding: 20px;
     box-sizing: border-box;
     margin: 0 auto;
