@@ -9,18 +9,15 @@ body {
     background-color: rgb(255, 253, 208);
 }
 
-/* Header section */
-
 header h1 {
     font-family: "Jacquard 12", 'Times New Roman', Times, serif;
     font-weight: 300;
     font-size: 100px;
     color: rgb(229, 80, 0);
     text-align: center;
-    margin: 30px 15px 10px;
+    margin: 30px 15px 20px;
 }
 
-/*
 header h2 {
     font-family: "Goudy Bookletter 1911", 'Times New Roman', Times, serif;
     font-weight: 800;
@@ -29,14 +26,14 @@ header h2 {
     text-align: center;
     margin: 30px 15px 10px;
 }
-*/
+
 header .return-main {
-    font-family: "Goudy Bookletter 1911", 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    margin: 20px 10px 40px;
+font-family: "Goudy Bookletter 1911", 'Times New Roman', Times, serif;
+font-weight: 600;
+font-size: 15px;
+color: black;
+text-align: center;
+margin: 20px 10px 40px;
 }
 
 h1 {
@@ -46,95 +43,62 @@ h1 {
 
 h2 {
     font-family: Helvetica;
-    font-weight: 500;
-    font-size: 50px;
+    font-weight: bold;
 }
 
-/* Foreground Section */
-
-.color-wall {
+.color-wall-html {
     width: 80%;
     height: auto;
     background-color: rgb(252, 249, 195);
-    border: 10px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 8px;
+    box-shadow: 4px;
     border-style: outset;
     margin: 40px;
     padding: 20px;
     box-sizing: border-box;
     margin: 0 auto;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
-.color-wall section {
+.color-wall-html section {
     width: 100%;
     text-align: left;
     padding: 10px 10px;
 }
 
-/* Nav-bar section */
-
-.navigation {
+.html-history {
     text-align: left;
-    margin-left: -20px;
-    flex: 1;
+    margin-left: 40px;
 }
 
-.navigation h3 {
-    color: rgb(229, 80, 0);
-    font-size: 20px;
+.html-history h3 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
-    margin: 10px 15px;
+    margin: 20px 30px 10px;
 }
 
-.navigation p {
+.html-history p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     margin: 40px 30px 30px;
 }
 
-
-.navigation h4 {
-    color: rgb(229, 80, 0);
-    font-size: 20px;
+.html-history h4 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
-    margin: 10px 40px;
+    margin: 40px 30px 20px;
 }
 
-.navigation ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navigation li {
+.html-history li {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    /*margin: 10px 80px;*/
+    margin: 10px 80px;
 }
 
-.navigation a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: 700;
-}
-
-.navigation b {
+.html-history b {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 800;
-}
-
-/* Empty */
-
-/* Test section*/
-
-.test {
-    display: inline-block;
-    flex: 2;
-    margin-left: -190px;
-    margin-top: -7px;
 }
