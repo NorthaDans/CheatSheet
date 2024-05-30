@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -49,7 +49,7 @@ header h2 {
     font-style: normal;
   }
   
-  .card-container{
+  .card-container {
     display: flex; 
     justify-content: space-around; 
     flex-wrap: nowrap; 
@@ -60,12 +60,12 @@ header h2 {
     align-items: center;
 }
 
-.card{
+.card {
     overflow: hidden;
     flex: 0 1 calc(25%);
 }
 
-.card img{
+.card img {
     width: 100%;
     height: auto;
 }

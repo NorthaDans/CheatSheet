@@ -74,7 +74,7 @@ h2 {
     padding: 10px 10px;
 }
 
-/* Nav-bar section */
+/* Nav-bar section 
 
 .navigation {
     text-align: left;
@@ -98,7 +98,7 @@ h2 {
 
 
 .navigation h4 {
-    color: rgb(229, 80, 0);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 600;
@@ -114,7 +114,6 @@ h2 {
 .navigation li {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    /*margin: 10px 80px;*/
 }
 
 .navigation a {
@@ -128,9 +127,10 @@ h2 {
     font-weight: 800;
 }
 
+*/
 /* Empty */
 
-/* Test section*/
+/* Test section
 
 .test {
     display: inline-block;
@@ -138,3 +138,5 @@ h2 {
     margin-left: -190px;
     margin-top: -7px;
 }
+
+*/
