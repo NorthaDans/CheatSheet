@@ -46,7 +46,7 @@ h2 {
     font-weight: bold;
 }
 
-.color-wall-html {
+.color-wall {
     width: 80%;
     height: auto;
     background-color: rgb(252, 249, 195);
@@ -63,7 +63,7 @@ h2 {
     gap: 20px;
 }
 
-.color-wall-html section {
+.color-wall section {
     width: 100%;
     text-align: left;
     padding: 10px 10px;
