@@ -77,6 +77,11 @@ header .advance-history {
     margin: 0;
 }
 
+.nav-img-meny {
+    height: 50%;
+    width: auto;
+}
+
 /* Foreground Section */
 
 .color-wall {

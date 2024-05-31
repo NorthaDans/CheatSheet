@@ -70,7 +70,7 @@ header h2 {
     height: auto;
 }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
         .card-container {
             flex-direction: column;
             align-items: center;
