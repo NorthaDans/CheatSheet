@@ -9,7 +9,25 @@ body {
     background-color: rgb(255, 253, 208);
 }
 
+/*
+h1 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 50px;
+}
+*/ 
+
 /* Header section */
+
+header {
+    width: 80%;
+    margin: 0 auto 10px;
+}
 
 header h1 {
     font-family: "Jacquard 12", 'Times New Roman', Times, serif;
@@ -30,24 +48,33 @@ header h2 {
     margin: 30px 15px 10px;
 }
 */
-header .return-main {
+
+header nav {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.nav-img img {
+    width: 50%;
+    height: auto;
+}
+
+header .return-main,
+header .advance-history {
     font-family: "Goudy Bookletter 1911", 'Times New Roman', Times, serif;
     font-weight: 600;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    margin: 20px 10px 40px;
-}
-
-h1 {
-    font-family: Helvetica;
-    font-weight: bold;
-}
-
-h2 {
-    font-family: Helvetica;
-    font-weight: 500;
-    font-size: 50px;
+    padding: 20px 10px;
+    margin: 0;
 }
 
 /* Foreground Section */
@@ -59,10 +86,9 @@ h2 {
     border: 10px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     border-style: outset;
-    margin: 40px;
+    margin: 0 auto 20px;
     padding: 20px;
     box-sizing: border-box;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -71,7 +97,7 @@ h2 {
 .color-wall section {
     width: 100%;
     text-align: left;
-    padding: 10px 10px;
+    padding: 10px;
 }
 
 /* Nav-bar section 
