@@ -1,0 +1,26 @@
+---
+name: Bug report
+about: Code does not work as intended
+title: Bug report
+labels: bug
+assignees: NorthaDans
+
+---
+
+**Severity**
+The priority of which the bug has to be adressed. Crucial, High, Medium, Low
+
+**Expected behaviour**
+A clear and concise description of what you expected to happen.
+
+**Actual behaviour**
+A clear and concise description of what actually happened.
+
+**Affected files**
+Which files are affected by the bug.
+
+**Additional context**
+Add any other context about the problem here.
+
+**Next step**
+The next steps required to resolve the bug or possible troubleshooting.
