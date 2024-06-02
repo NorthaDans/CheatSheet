@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(255, 253, 208);
+  background-color: hsl(0, 0%, 100%);
 }
 
 /* Header section */
@@ -20,7 +20,7 @@ header h1 {
   font-family: "Jacquard 12", "Times New Roman", Times, serif;
   font-weight: 300;
   font-size: 100px;
-  color: rgb(255, 155, 0);
+  color: hsl(36, 100%, 50%);
   text-align: center;
   margin: 30px 15px 10px;
 }
@@ -41,9 +41,9 @@ header h2 {
 .color-wall {
   width: 80%;
   height: auto;
-  background-color: rgb(252, 249, 195);
+  background-color: hsl(0, 0%, 100%);
   border: 10px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 10px hsla(0, 0%, 0%, 0.5);
   border-style: outset;
   margin: 40px auto 5px;
   box-sizing: border-box;
@@ -64,13 +64,13 @@ nav {
   position: sticky;
   top: 0px;
   padding: 1px 25px 0px;
-  background-color: rgb(252, 249, 195);
+  background-color: hsl(0, 0%, 100%);
 }
 
 .nav-backround {
   width: 100%;
   height: 100%;
-  background-color: rgb(252, 249, 195);
+  background-color: hsl(0, 0%, 100%);
   margin: 40px auto 20px;
   padding: 20px;
   box-sizing: border-box;
@@ -118,26 +118,55 @@ nav {
   padding: 0;
   margin: 10px auto -20px;
   gap: 0.33em;
-  background-color: rgb(252, 249, 195);
+  background-color: hsl(0, 0%, 100%);
 }
 
 .nav-top ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(252, 249, 195);
+  background-color: hsl(0, 0%, 100%);
 }
 
 hr {
   width: 100%;
   margin-top: 30px;
   border: 2px solid;
-  color: rgb(116, 117, 119);
+  color: hsl(220, 1%, 46%);
 }
 
-/* test */
+/* Text - Change class */
 
-.test {
-  margin: 10px;
-  padding: 30px;
+.html-history {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.html-history h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin: 20px 30px 10px;
+}
+
+.html-history p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin: 40px 30px 30px;
+}
+
+.html-history h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin: 40px 30px 20px;
+}
+
+.html-history li {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin: 10px 80px;
+}
+
+.html-history b {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
 }
