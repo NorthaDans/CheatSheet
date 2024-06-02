@@ -36,22 +36,60 @@ header h2 {
 }
 */
 
-/* Nav Bar Section */
+/* Foreground Section */
+
+.color-wall {
+  width: 80%;
+  height: auto;
+  background-color: rgb(252, 249, 195);
+  border: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+  border-style: outset;
+  margin: 40px auto 5px;
+  box-sizing: border-box;
+}
+
+.color-wall section {
+  width: 100%;
+  text-align: left;
+}
+
+/* Nav-bar section */
 
 nav {
   width: 100%;
 }
 
-header nav ul {
+.main-nav {
+  position: sticky;
+  top: 0px;
+  padding: 1px 25px 0px;
+  background-color: rgb(252, 249, 195);
+}
+
+.nav-backround {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(252, 249, 195);
+  margin: 40px auto 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.page-nav {
+  margin: 10px auto 0px
+}
+
+.page-nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin: 20px;
+  margin: 5px;
   gap: 1em;
 }
 
-header nav ul li {
+.page-nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,100 +103,41 @@ header nav ul li {
 .return-main img,
 .advance-history img {
   width: 100%;
-  height: 30px;
+  height: 20px;
 }
 
 .nav-img-meny img {
   width: 100%;
-  height: 100px;
+  height: 50px;
 }
 
-/* Foreground Section */
-
-.color-wall {
-  width: 80%;
-  height: auto;
-  background-color: rgb(252, 249, 195);
-  border: 10px;
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  border-style: outset;
-  margin: 0 auto 20px;
-  padding: 20px;
-  box-sizing: border-box;
+.nav-top ul {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 10px auto -20px;
+  gap: 0.33em;
+  background-color: rgb(252, 249, 195);
 }
 
-.color-wall section {
+.nav-top ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(252, 249, 195);
+}
+
+hr {
   width: 100%;
-  text-align: left;
-  padding: 10px;
+  margin-top: 30px;
+  border: 2px solid;
+  color: rgb(116, 117, 119);
 }
 
-/* Nav-bar section 
-
-.navigation {
-    text-align: left;
-    margin-left: -20px;
-    flex: 1;
-}
-
-.navigation h3 {
-    color: rgb(229, 80, 0);
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-    margin: 10px 15px;
-}
-
-.navigation p {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-    margin: 40px 30px 30px;
-}
-
-
-.navigation h4 {
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    margin: 10px 40px;
-}
-
-.navigation ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navigation li {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
-}
-
-.navigation a {
-    text-decoration: none;
-    color: inherit;
-    font-weight: 700;
-}
-
-.navigation b {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-}
-
-*/
-/* Empty */
-
-/* Test section
+/* test */
 
 .test {
-    display: inline-block;
-    flex: 2;
-    margin-left: -190px;
-    margin-top: -7px;
+  margin: 10px;
+  padding: 30px;
 }
-
-*/
