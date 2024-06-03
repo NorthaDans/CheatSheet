@@ -28,15 +28,6 @@ header h1 {
   margin: 30px 15px 30px;
 }
 
-header h2 {
-  font-family: "Goudy Bookletter 1911", "Times New Roman", Times, serif;
-  font-weight: 800;
-  font-size: 50px;
-  color: hsl(45, 100%, 51%);
-  text-align: center;
-  margin: 30px 15px 10px;
-}
-
 .jacquard-12-regular {
   font-family: "Jacquard 12", system-ui;
   font-weight: 400;

@@ -25,17 +25,6 @@ header h1 {
   margin: 30px 15px 10px;
 }
 
-/*
-header h2 {
-    font-family: "Goudy Bookletter 1911", 'Times New Roman', Times, serif;
-    font-weight: 800;
-    font-size: 50px;
-    color: rgb(255, 108, 0);
-    text-align: center;
-    margin: 30px 15px 10px;
-}
-*/
-
 /* Foreground Section */
 
 .color-wall {
@@ -96,12 +85,12 @@ nav {
 }
 
 .return-main a,
-.advance-history a {
+.advance-semantic a {
   object-fit: cover;
 }
 
 .return-main img,
-.advance-history img {
+.advance-semantic img {
   width: 100%;
   height: 20px;
 }
@@ -135,38 +124,76 @@ hr {
   color: hsl(220, 1%, 46%);
 }
 
-/* Text - Change class */
+/* Text */
 
-.html-history {
+.html-info {
   text-align: left;
   margin-left: 40px;
+  margin-right: 40px;
 }
 
-.html-history h3 {
+.red {
+  color: hsl(21, 100%, 45%);
+}
+
+.html-info h2 {
   font-family: "Times New Roman", Times, serif;
   font-weight: 800;
   margin: 20px 30px 10px;
 }
 
-.html-history p {
+.html-info h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin: 20px 30px 10px;
+}
+
+.html-info p {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
-  margin: 40px 30px 30px;
+  margin: 10px 30px;
 }
 
-.html-history h4 {
+.html-info h4 {
   font-family: "Times New Roman", Times, serif;
   font-weight: 600;
-  margin: 40px 30px 20px;
+  margin: 20px 30px 10px;
 }
 
-.html-history li {
+.html-info li {
   font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   margin: 10px 80px;
 }
 
-.html-history b {
+.html-info b {
   font-family: "Times New Roman", Times, serif;
   font-weight: 800;
+}
+
+/* Basic Structure */
+
+.basic-structure b {
+  font-weight: 600;
+}
+
+/* Nested classes */
+
+.nested-one {
+  padding-left: 10px;
+}
+
+.nested-two {
+  padding-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nested-three {
+  padding-left: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nested-four {
+  padding-left: 40px;
+  font-family: "Times New Roman", Times, serif;
 }
