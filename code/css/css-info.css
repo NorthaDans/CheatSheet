@@ -159,3 +159,60 @@ hr {
   font-family: "Times New Roman", Times, serif;
   font-weight: 800;
 }
+
+/* Table */
+
+.table {
+  width: 85%;
+  border-collapse: collapse;
+  margin: 35px 30px 10px;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.table th {
+  font-size: 18px;
+}
+
+.table td {
+  font-size: 14px;
+}
+
+.table th, 
+.table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: 5px solid hsl(0, 0%, 100%);
+  font-family: "Times New Roman", Times, serif;
+}
+
+table thead tr {
+  background-color: hsl(0, 0%, 78%);
+  color: hsl(0, 0%, 0%);
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: hsl(0, 0%, 78%);
+}
+
+.table tbody tr:nth-of-type(odd) {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.table thead tr:hover,
+.table tbody tr:hover {
+  background-color: hsl(21, 100%, 45%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 800;
+}
+
+.table thead tr:hover .red,
+.table tbody tr:hover .red {
+  color: hsl(0, 0%, 0%);
+}

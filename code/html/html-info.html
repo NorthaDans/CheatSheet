@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <h1 id="Top">HTML5 Cheat Sheet</h1>
+      <h1 id="header">HTML5 Cheat Sheet</h1>
     </header>
     <div class="color-wall">
       <section class="main-nav">
@@ -59,7 +59,9 @@
             &#124;
           </p>
           <li>
-            item
+            <a href="#general">
+              General
+            </a>
           </li>
           <p>
             &#124;
@@ -122,7 +124,8 @@
         <br>
         <b class="red">&lt;/html&gt;</b>
       </p>
-      <h3>
+      <!-- General Tags -->
+      <h3 id="general">
         General tags
       </h3>
       <p>
@@ -130,6 +133,334 @@
         <br>
         All tags (with some exceptions) need to be closed with a closing tag like so: <b class="red">&lt;/x&gt;</b>.
       </p>
+      <!-- General Tags Table -->
+      <table class="table">
+          <thead>
+            <tr>
+              <th class="col-25">
+                <b>
+                  Name
+                </b>
+              </th>
+              <th class="col-25">
+                <b>
+                  Tag
+                </b>
+                <br>
+                &#10088;<b class="red">&#x2747;</b>
+                has no closing tag &#10089;
+              </th>
+              <th class="col-50">
+                <b>
+                  Explanation
+                </b>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                Document type
+              </td>
+              <td>
+                &lt;!DOCTYPE html&gt;
+                <b class="red">
+                  &#x2747;
+                </b>
+              </td>
+              <td>
+                Declares to the viewport to interpret the code as HTML code.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                HTML
+              </td>
+              <td>
+                &lt;html&gt;
+                <b class="red">
+                  &#x2747;
+                </b>
+              </td>
+              <td>
+                Contains the totality of HTML code.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Head
+              </td>
+              <td>
+                &lt;head&gt;&lt;/head&gt;
+              </td>
+              <td>
+                Contains metadata tags such as &lt;title&gt;, &lt;meta&gt;, &lt;link&gt;, &lt;style&gt;, and &lt;script&gt;.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Title
+              </td>
+              <td>
+                &lt;title&gt;&lt;/title&gt;
+              </td>
+              <td>
+                Contains the page title.
+              </td>
+            </tr>
+            <tr>
+            <td>
+              Meta
+            </td>
+            <td>
+              &lt;meta&gt;&lt;/meta&gt;
+            </td>
+            <td>
+              Provides metadata about the document, used by search engines and browsers, not visible in the main content.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Link
+            </td>
+            <td>
+              &lt;link&gt;&lt;/link&gt;
+            </td>
+            <td>
+              Links the HTML code sheet with other sheets.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Style
+            </td>
+            <td>
+              &lt;style&gt;&lt;/style&gt;
+            </td>
+            <td>
+              Can contain CSS internal stylesheet code.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Script
+            </td>
+            <td>
+              &lt;script&gt;&lt;/script&gt;
+            </td>
+            <td>
+              Defines client-side script.
+            </td>
+          </tr>
+            <tr>
+              <td>
+                Body
+              </td>
+              <td>
+                &lt;body&gt;&lt;/body&gt;
+              </td>
+              <td>
+                Contains the content of the HTML document.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Header
+              </td>
+              <td>
+                &lt;header&gt;&lt;/header&gt;
+              </td>
+              <td>
+                Contains links or headings.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Navigation
+              </td>
+              <td>
+                &lt;nav&gt;&lt;/nav&gt;
+              </td>
+              <td>
+                Defines a block of navigation links such as menus and tables of contents. 
+                <br>
+                Can be used in &lt;header&gt; but also standalone.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Main
+              </td>
+              <td>
+                &lt;main&gt;&lt;/main&gt;
+              </td>
+              <td>
+                Highlights which is the main content of the page to the browser. 
+                <br>
+                Highlights the bulk of the content as opposed to &lt;nav&gt; and &lt;footer&gt;.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Div
+              </td>
+              <td>
+                &lt;div&gt;&lt;/div&gt;
+              </td>
+              <td>
+                Creates a generic container or division within an HTML document.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Span
+              </td>
+              <td>
+                &lt;span&gt;&lt;/span&gt;
+              </td>
+              <td>
+                Used to separate small pieces of content that are  on the same line as other content. 
+                Use this tag when you want to target information that is inline and helps formatting later in CSS.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Section
+              </td>
+              <td>
+                &lt;section&gt;&lt;/section&gt; 
+              </td>
+              <td>
+                Creates sections within the body. 
+                <br>
+                Used to separate a bulk or related information from another bulk of related information.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Article
+              </td>
+              <td>
+                &lt;article&gt;&lt;/article&gt; 
+              </td>
+              <td>
+                Contains a piece of information. Can be placed within a &lt;section&gt; element.
+                Depending on context this tag can also be a parent to a &lt;section&gt; element.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Headings
+              </td>
+              <td>
+                &lt;h1&gt; ; &lt;h6&gt; 
+                <br>
+                &lt;/h1&gt; ; &lt;/h6&gt; 
+              </td>
+              <td>
+                Headings that are used to section off text.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Paragraph
+              </td>
+              <td>
+                &lt;p&gt;&lt;/p&gt; 
+              </td>
+              <td>
+                Creates a paragraph of text.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Break
+              </td>
+              <td>
+                &lt;br/&gt; 
+                <b class="red">
+                  &#x2747;
+                </b>
+              </td>
+              <td>
+                Breaks lines in paragraphs.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Aside
+              </td>
+              <td>
+                &lt;aside&gt;&lt;/aside&gt;
+              </td>
+              <td>
+                Marks additional information and can be used alongside other elements. 
+                Common uses includes; comments, endnotes, pull quotes.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Figure
+              </td>
+              <td>
+                &lt;figure&gt;&lt;/figure&gt;
+              </td>
+              <td>
+                Contains media which is referenced in the main flow of the document. 
+                It is related to the main flow of the document but its position is independent.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Figure caption
+              </td>
+              <td>
+                &lt;figcaption&gt;&lt;/figcaption&gt;
+              </td>
+              <td>
+                Is a child of &lt;figure&gt; and is used to describe the media itself.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Embed
+              </td>
+              <td>
+                &lt;embed&gt; 
+                <b class="red">&#x2747;</b>
+              </td>
+              <td>
+                This is a legacy tag.
+                It has since been replaced by &lt;img&gt;, &lt;video&gt;, &lt;audio&gt;, &lt;iframe&gt;.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Footer
+              </td>
+              <td>
+                &lt;footer&gt;&lt;/footer&gt; 
+              </td>
+              <td>
+                Contains important information at the end of the page.
+                <br>
+                For example copyright and contact information.
+              </td>
+            </tr>
+          </tr>
+          <tr>
+            <td>
+              Horizontal line
+            </td>
+            <td>
+              &lt;hr&gt; <b class="red">&#x2747;</b>
+            </td>
+            <td>
+              Cretes a horizontal line on the page.
+            </td>
+          </tr>
+        </tbody>
+      </table>
       </section>
     </div>
   </body>
