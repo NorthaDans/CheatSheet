@@ -202,13 +202,7 @@ hr {
   font-family: "Times New Roman", Times, serif;
 }
 
-#table-doctype b,
-#table-html b,
-#table-head b,
-#table-title b,
-#table-body b,
-#table-div b,
-#table-headings b {
+#no-link {
   text-decoration: none;
 }
 
