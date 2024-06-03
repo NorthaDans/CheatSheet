@@ -5,6 +5,10 @@
   font-family: sans-serif;
 }
 
+html {
+  scroll-padding-top: 100px;
+}
+
 body {
   background-color: hsl(0, 0%, 100%);
 }
@@ -196,6 +200,16 @@ hr {
 .nested-four {
   padding-left: 40px;
   font-family: "Times New Roman", Times, serif;
+}
+
+#table-doctype b,
+#table-html b,
+#table-head b,
+#table-title b,
+#table-body b,
+#table-div b,
+#table-headings b {
+  text-decoration: none;
 }
 
 /* Table */
