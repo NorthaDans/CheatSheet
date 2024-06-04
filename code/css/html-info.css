@@ -185,7 +185,7 @@ hr {
 
 /* Basic Structure */
 
-.basic-structure b {
+.structure b {
   font-weight: 600;
 }
 
@@ -207,6 +207,11 @@ hr {
 
 .nested-four {
   padding-left: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nested-five {
+  padding-left: 50px;
   font-family: "Times New Roman", Times, serif;
 }
 
