@@ -62,7 +62,9 @@
             <a href="#formatting">Formatting</a>
           </li>
           <p>&#124;</p>
-          <li>item</li>
+          <li>
+            <a href="#table">Table</a>
+          </li>
           <p>&#124;</p>
           <li>item</li>
         </ul>
@@ -939,9 +941,151 @@
             </td>
             <td>&lt;var&gt;</td>
             <td>
-              Represents a variable in a mathematical expression or programming context. This tag is typically rendered in italic.
+              Represents a variable in a mathematical expression or programming context.
+              This tag is typically rendered in italic.
             </td>
           </tr>
+        </tbody>
+      </table>
+          <!-- Table Tags -->
+          <h3 id="table">
+            Table tags
+          </h3>
+          <p>
+            Tables in HTML are used to organize and display data in a structured format,
+            making it easier to read and understand.
+          </p>
+          <!-- Table Tags Table -->
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="col-25">
+                  <b>Name</b>
+                </th>
+                <th class="col-25">
+                  <b>Tag</b>
+                  <br>
+                  <span class="smaller-text">
+                  &#10088;
+                  <b class="red">&#x2747;</b>
+                  has no closing tag &#10089;
+                  </span>
+                </th>
+                <th class="col-50">
+                  <b>Explanation</b>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <a 
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table" 
+                  target="_blank" 
+                  class="no-link">
+                  Table
+                </a>
+                </td>
+                <td>&lt;table&gt;</td>
+                <td>
+                  The container element for all tabular data.
+                  It defines the structure and layout of the table.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a 
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead" 
+                  target="_blank" 
+                  class="no-link">
+                  Table head
+                </a>
+                </td>
+                <td>&lt;thead&gt;</td>
+                <td>
+                  Defines the header section of the table,
+                  typically containing column headings.
+                  It is a child of the &lt;table&gt; element and often appears before &lt;tbody&gt;.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a 
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody" 
+                  target="_blank" 
+                  class="no-link">
+                  Table body
+                </a>
+                </td>
+                <td>&lt;tbody&gt;</td>
+                <td>
+                  Groups the body content in a table.
+                  This tag helps in organizing and managing long tables by sectioning off the main content area.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a 
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot" 
+                  target="_blank" 
+                  class="no-link">
+                  Table footer
+                </a>
+                </td>
+                <td>&lt;tfoot&gt;</td>
+                <td>
+                  Groups the footer content in a table,
+                  usually containing summary information like totals or averages.
+                  It is a child of the &lt;table&gt; element and can be placed before or after &lt;tbody&gt;.
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a 
+                  href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr" 
+                  target="_blank" 
+                  class="no-link">
+                  Table row
+                </a>
+                </td>
+                <td>&lt;tr&gt;</td>
+                <td>
+                  Represents a row in a table.
+                  It is a child of &lt;table&gt;, &lt;thead&gt;, &lt;tbody&gt;, or &lt;tfoot&gt;, and contains the table cells.
+                </td>
+              </tr>
+                <tr>
+                  <td>
+                    <a 
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th" 
+                    target="_blank" 
+                    class="no-link">
+                    Table heading
+                  </a>
+                  </td>
+                  <td>&lt;th&gt;</td>
+                  <td>
+                    Defines a header cell in a table.
+                    It is a child of a &lt;tr&gt; element and is used to provide titles for the columns or rows.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a 
+                    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td" 
+                    target="_blank" 
+                    class="no-link">
+                    Table data
+                  </a>
+                  </td>
+                  <td>&lt;td&gt;</td>
+                  <td>
+                    Defines a standard data cell in a table.
+                    It is a child of a &lt;tr&gt; element and contains the actual data for the table.
+                  </td>
+                </tr>
+            </tbody>
+          </table>
     </section>
     </div>
   </body>
