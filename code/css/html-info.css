@@ -140,6 +140,14 @@ hr {
   color: hsl(21, 100%, 45%);
 }
 
+.italic {
+  font-style: italic;
+}
+
+.smaller-text {
+  font-size: 12px;
+}
+
 .html-info h2 {
   font-family: "Times New Roman", Times, serif;
   font-weight: 800;
@@ -206,6 +214,10 @@ hr {
   text-decoration: none;
 }
 
+.no-link {
+  text-decoration: none;
+}
+
 /* Table */
 
 .table {
@@ -241,6 +253,17 @@ hr {
 table thead tr {
   background-color: hsl(0, 0%, 78%);
   color: hsl(0, 0%, 0%);
+}
+
+tr a {
+  color: hsl(0, 0%, 0%);
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+}
+
+tr:hover a {
+  color: hsl(0, 0%, 100%);
+  font-family: "Times New Roman", Times, serif;
 }
 
 .table tbody tr:nth-of-type(even) {
