@@ -236,23 +236,29 @@ hr {
 
 .table th {
   font-size: 18px;
+  height: 100px;
 }
 
 .table td {
   font-size: 14px;
+  height: 80px;
 }
 
 .table th, 
 .table td {
   padding: 12px 15px;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
+  word-break: break-word;
   border: 5px solid hsl(0, 0%, 100%);
   font-family: "Times New Roman", Times, serif;
+  padding: 12px 15px;
 }
 
 table thead tr {
   background-color: hsl(0, 0%, 78%);
   color: hsl(0, 0%, 0%);
+  height: 100px;
 }
 
 tr a {
