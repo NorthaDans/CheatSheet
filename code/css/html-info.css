@@ -242,23 +242,10 @@ hr {
 .table td {
   font-size: 14px;
   height: 80px;
-}
-
-.table th, 
-.table td {
-  padding: 12px 15px;
   text-align: justify;
-  text-align-last: center;
-  word-break: break-word;
   border: 5px solid hsl(0, 0%, 100%);
   font-family: "Times New Roman", Times, serif;
   padding: 12px 15px;
-}
-
-table thead tr {
-  background-color: hsl(0, 0%, 78%);
-  color: hsl(0, 0%, 0%);
-  height: 100px;
 }
 
 tr a {
@@ -272,12 +259,25 @@ tr:hover a {
   font-family: "Times New Roman", Times, serif;
 }
 
-.table tbody tr:nth-of-type(even) {
+table thead tr {
   background-color: hsl(0, 0%, 78%);
+  color: hsl(0, 0%, 0%);
+  height: 100px;
+}
+
+.table th {
+  text-align: justify;
+  border: 5px solid hsl(0, 0%, 100%);
+  font-family: "Times New Roman", Times, serif;
+  padding: 12px 15px;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: hsl(0, 0%, 100%);
 }
 
 .table tbody tr:nth-of-type(odd) {
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 95%);
 }
 
 .table thead tr:hover,
