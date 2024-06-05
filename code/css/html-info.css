@@ -14,7 +14,7 @@ body {
   background-color: hsl(0, 0%, 100%);
 }
 
-/* Header section */
+/* HEADER SECTION  */
 
 header {
   width: 80%;
@@ -30,7 +30,7 @@ header h1 {
   margin: 30px 15px 10px;
 }
 
-/* Foreground Section */
+/* FOREGROUND SECTION  */
 
 .color-wall {
   width: 80%;
@@ -48,7 +48,7 @@ header h1 {
   text-align: left;
 }
 
-/* Nav-bar section */
+/* NAV-BAR SECTION */
 
 nav {
   width: 100%;
@@ -129,7 +129,7 @@ hr {
   color: hsl(220, 1%, 46%);
 }
 
-/* Text */
+/* TEXT STYLES */
 
 .red {
   color: hsl(21, 100%, 45%);
@@ -205,13 +205,11 @@ hr {
   font-weight: 800;
 }
 
-/* Structure */
+/* STRUCTURE & NESTED */
 
 .structure b {
   font-weight: 600;
 }
-
-/* Nested classes */
 
 .nested-one {
   padding-left: 10px;
@@ -233,7 +231,7 @@ hr {
   padding-left: 50px;
 }
 
-/* Table */
+/* TABLE STYLES */
 
 .table {
   width: 85%;
@@ -299,7 +297,9 @@ tr:hover b {
   color: hsl(0, 0%, 100%);
 }
 
-/* ISSUE DETECTED -- .RED DOES NOT APPLY */ /* ISSUE DETECTED -- .RED DOES NOT APPLY */
+tr:hover span {
+  color: hsl(0, 0%, 100%);
+}
 
 tr:hover .red,
 tr:hover .green,
@@ -307,16 +307,8 @@ tr:hover .yellow {
   color: hsl(0, 0%, 100%);
 }
 
-/* ISSUE DETECTED -- .RED DOES NOT APPLY */ /* ISSUE DETECTED -- .RED DOES NOT APPLY */
-
 .table thead tr:hover,
 .table tbody tr:hover {
+  color: blue;
   background-color: hsl(21, 100%, 45%);
-  color: hsl(0, 0%, 100%);
-  font-weight: 800;
-}
-
-.table thead tr:hover .red,
-.table tbody tr:hover .red {
-  color: hsl(0, 0%, 0%);
 }
