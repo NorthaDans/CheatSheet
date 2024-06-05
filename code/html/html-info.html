@@ -29,8 +29,7 @@
             <a href="./index.html">
               <img
                 src="../../images/double-left-red.png"
-                alt="left navigation arrow"
-              />
+                alt="left navigation arrow" />
             </a>
           </li>
           <li class="nav-img-meny">
@@ -42,31 +41,32 @@
             <a href="./html-info-semantic.html">
               <img
                 src="../../images/double-right-red.png"
-                alt="right navigation arrow"
-              />
+                alt="right navigation arrow" />
             </a>
           </li>
         </ul>
       </nav>
-      <nav class="nav-top">
+      <nav class="nav-top no-link">
         <ul>
           <li>
-            <a href="#header">Top</a>
+            <a href="#header"><b>Top</b></a>
           </li>
           <p>&#124;</p>
           <li>
-            <a href="#general">General</a>
+            <a href="#general"><b>General</b></a>
           </li>
           <p>&#124;</p>
           <li>
-            <a href="#formatting">Formatting</a>
+            <a href="#formatting"><b>Formatting</b></a>
           </li>
           <p>&#124;</p>
           <li>
-            <a href="#table">Table</a>
+            <a href="#table"><b>Table</b></a>
           </li>
           <p>&#124;</p>
-          <li>item</li>
+          <li>
+            <a href="#media"><b>Media</b></a>
+          </li>
         </ul>
       </nav>
       <hr>
@@ -139,9 +139,7 @@
         </a>
       </p>
       <!-- General Tags -->
-      <h3 id="general">
-        General tags
-      </h3>
+      <h3 id="general">General tags</h3>
       <p>
         HTML tags are enclosed in angle brackets like so: <b class="red">&lt;x&gt;</b>. 
         <br>
@@ -190,7 +188,7 @@
                 HTML
                 </a>
               </td>
-              <td>&lt;html&gt;<b class="red">&#x2747;</b></td>
+              <td>&lt;html&gt;</td>
               <td>Contains the totality of HTML code.</td>
             </tr>
             <tr>
@@ -393,7 +391,7 @@
                 Headings
                 </a>
               </td>
-              <td>&lt;h1&gt; ; &lt;h6&gt;<br>&lt;/h1&gt; ; &lt;/h6&gt; </td>
+              <td>&lt;h1&gt; ; &lt;h6&gt;</td>
               <td>Headings that are used to section off text.</td>
             </tr>
             <tr>
@@ -405,7 +403,7 @@
                 Paragraph
                 </a>
               </td>
-              <td>&lt;p&gt;&lt;/p&gt; </td>
+              <td>&lt;p&gt;</td>
               <td>Creates a paragraph of text.</td>
             </tr>
             <tr>
@@ -429,7 +427,7 @@
                 Aside
                 </a>
               </td>
-              <td>&lt;aside&gt;&lt;/aside&gt;</td>
+              <td>&lt;aside&gt;;</td>
               <td>
                 Marks additional information and can be used alongside other elements.
                 Common uses includes; comments, endnotes, pull quotes.
@@ -444,7 +442,7 @@
                 Figure
                 </a>
               </td>
-              <td>&lt;figure&gt;&lt;/figure&gt;</td>
+              <td>&lt;figure&gt;</td>
               <td>
                 Contains media which is referenced in the main flow of the document.
                 It is related to the main flow of the document but its position is independent.
@@ -510,9 +508,7 @@
         </tbody>
       </table>
       <!-- Formatting Tags -->
-      <h3 id="formatting">
-        Formatting tags
-      </h3>
+      <h3 id="formatting">Formatting tags</h3>
       <p>
         Text formatting tags are used to emphasize, style, and differentiate content in various ways.
         <br>
@@ -856,9 +852,7 @@
         </tbody>
       </table>
           <!-- Table Tags -->
-          <h3 id="table">
-            Table tags
-          </h3>
+          <h3 id="table">Table tags</h3>
           <p>
             Tables in HTML are used to organize and display data in a structured format,
             making it easier to read and understand.
@@ -1105,6 +1099,44 @@
         <br>
         <span class="nested-one"><b class="red">...</b></span>
       </p>
+      <!-- Media Tags -->
+      <h3 id="media">Media tags</h3>
+      <p>
+        HTML provides a variety of tags to embed and display different types of media content such as images,
+        videos, and audio files.
+        <br>
+        These tags enhance web pages by adding visual and auditory elements,
+        making the content more engaging and interactive. 
+      </p>
+      <!-- Images -->
+      <h4>Images</h4>
+      <p>
+        The <img> tag is used to embed images in an HTML document.
+        It is a self-closing tag and requires the src attribute to specify the image
+        <br>
+        source and the alt attribute to provide alternative text for accessibility.
+      </p>
+      <!-- Images Table 1 -->
+      <table class="table">
+        <tbody>
+          <tr>
+            <td class="col-50">
+              <a 
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"
+              target="_blank"
+              class="no-link bigger-text">
+                <span class="red">&lt;img</span>
+                <span class="green">src</span>
+                <span class="yellow">="image.jpg"</span>
+                <span class="green">alt</span>
+                <span class="yellow">="An image"</span>
+                <span class="red">&gt;</span>
+              </a>
+              </td>
+            <td>text</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
     </div>
   </body>

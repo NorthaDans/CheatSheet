@@ -2,7 +2,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Times New Roman", Times, serif;
+  color: hsl(0, 0%, 0%);
 }
 
 html {
@@ -130,60 +131,81 @@ hr {
 
 /* Text */
 
-.html-info {
-  text-align: left;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
 .red {
   color: hsl(21, 100%, 45%);
+}
+
+.green {
+  color: hsl(120, 100%, 50%);
+}
+
+.yellow {
+  color: hsl(36, 100%, 50%);
 }
 
 .italic {
   font-style: italic;
 }
 
+.bigger-text {
+  font-size: 18px;
+  font-weight: 900;
+}
+
 .smaller-text {
   font-size: 12px;
 }
 
+#no-link {
+  text-decoration: none;
+}
+
+.no-link {
+  text-decoration: none;
+}
+
+.no-link ul li a {
+  text-decoration: none;
+}
+
+.html-info {
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* can we remove the following class without distyrbing the styles? */
+
 .html-info h2 {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 800;
   margin: 20px 30px 10px;
 }
 
 .html-info h3 {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 800;
   margin: 20px 30px 10px;
 }
 
 .html-info p {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   margin: 10px 30px;
 }
 
 .html-info h4 {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 600;
   margin: 20px 30px 10px;
 }
 
 .html-info li {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 400;
   margin: 10px 80px;
 }
 
 .html-info b {
-  font-family: "Times New Roman", Times, serif;
   font-weight: 800;
 }
 
-/* Basic Structure */
+/* Structure */
 
 .structure b {
   font-weight: 600;
@@ -197,30 +219,18 @@ hr {
 
 .nested-two {
   padding-left: 20px;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .nested-three {
   padding-left: 30px;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .nested-four {
   padding-left: 40px;
-  font-family: "Times New Roman", Times, serif;
 }
 
 .nested-five {
   padding-left: 50px;
-  font-family: "Times New Roman", Times, serif;
-}
-
-#no-link {
-  text-decoration: none;
-}
-
-.no-link {
-  text-decoration: none;
 }
 
 /* Table */
@@ -249,19 +259,12 @@ hr {
   height: 80px;
   text-align: justify;
   border: 5px solid hsl(0, 0%, 100%);
-  font-family: "Times New Roman", Times, serif;
   padding: 12px 15px;
 }
 
 tr a {
   color: hsl(0, 0%, 0%);
-  font-family: "Times New Roman", Times, serif;
   width: 100%;
-}
-
-tr:hover a {
-  color: hsl(0, 0%, 100%);
-  font-family: "Times New Roman", Times, serif;
 }
 
 table thead tr {
@@ -273,7 +276,6 @@ table thead tr {
 .table th {
   text-align: justify;
   border: 5px solid hsl(0, 0%, 100%);
-  font-family: "Times New Roman", Times, serif;
   padding: 12px 15px;
 }
 
@@ -284,6 +286,28 @@ table thead tr {
 .table tbody tr:nth-of-type(odd) {
   background-color: hsl(0, 0%, 95%);
 }
+
+tr:hover a {
+  color: hsl(0, 0%, 100%);
+}
+
+tr:hover td {
+  color: hsl(0, 0%, 100%);
+}
+
+tr:hover b {
+  color: hsl(0, 0%, 100%);
+}
+
+/* ISSUE DETECTED -- .RED DOES NOT APPLY */ /* ISSUE DETECTED -- .RED DOES NOT APPLY */
+
+tr:hover .red,
+tr:hover .green,
+tr:hover .yellow {
+  color: hsl(0, 0%, 100%);
+}
+
+/* ISSUE DETECTED -- .RED DOES NOT APPLY */ /* ISSUE DETECTED -- .RED DOES NOT APPLY */
 
 .table thead tr:hover,
 .table tbody tr:hover {
