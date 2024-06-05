@@ -233,7 +233,7 @@ hr {
 
 /* TABLE STYLES */
 
-.table {
+table {
   width: 85%;
   border-collapse: collapse;
   margin: 35px 30px 10px;
@@ -247,15 +247,32 @@ hr {
   width: 50%;
 }
 
-.table th {
+table thead tr {
+  background-color: hsl(0, 0%, 78%);
+  color: hsl(0, 0%, 0%);
+  height: 100px;
+}
+
+table th {
+  text-align: left;
+  border: 5px solid hsl(0, 0%, 100%);
+  padding: 12px 15px;
   font-size: 18px;
   height: 100px;
 }
 
-.table td {
+table tbody tr:nth-of-type(even) {
+  background-color: hsl(0, 0%, 100%);
+}
+
+table tbody tr:nth-of-type(odd) {
+  background-color: hsl(0, 0%, 95%);
+}
+
+table td {
+  text-align: left;
   font-size: 14px;
   height: 80px;
-  text-align: justify;
   border: 5px solid hsl(0, 0%, 100%);
   padding: 12px 15px;
 }
@@ -265,50 +282,11 @@ tr a {
   width: 100%;
 }
 
-table thead tr {
-  background-color: hsl(0, 0%, 78%);
-  color: hsl(0, 0%, 0%);
-  height: 100px;
-}
-
-.table th {
-  text-align: justify;
-  border: 5px solid hsl(0, 0%, 100%);
-  padding: 12px 15px;
-}
-
-.table tbody tr:nth-of-type(even) {
-  background-color: hsl(0, 0%, 100%);
-}
-
-.table tbody tr:nth-of-type(odd) {
-  background-color: hsl(0, 0%, 95%);
-}
-
-tr:hover a {
-  color: hsl(0, 0%, 100%);
-}
-
-tr:hover td {
-  color: hsl(0, 0%, 100%);
-}
-
+tr:hover td,
+tr:hover th,
+tr:hover span,
+tr:hover a,
 tr:hover b {
   color: hsl(0, 0%, 100%);
-}
-
-tr:hover span {
-  color: hsl(0, 0%, 100%);
-}
-
-tr:hover .red,
-tr:hover .green,
-tr:hover .yellow {
-  color: hsl(0, 0%, 100%);
-}
-
-.table thead tr:hover,
-.table tbody tr:hover {
-  color: blue;
   background-color: hsl(21, 100%, 45%);
 }
