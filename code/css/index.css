@@ -1,3 +1,6 @@
+
+/* UNIVERSAL STYLES */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -28,6 +31,8 @@ header h1 {
   margin: 30px 15px 30px;
 }
 
+/* FONT STYLES */
+
 .jacquard-12-regular {
   font-family: "Jacquard 12", system-ui;
   font-weight: 400;
@@ -39,6 +44,8 @@ header h1 {
   font-weight: 400;
   font-style: normal;
 }
+
+/* CARD STYLES */
 
 .card-container {
   display: flex;
@@ -60,6 +67,8 @@ header h1 {
   width: 100%;
   height: auto;
 }
+
+/* MEDIA QUERIES */
 
 @media (max-width: 768px) {
   .card-container {

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 
+<!-- HEAD SECTION-->
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,24 +16,33 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap"
       rel="stylesheet">
-    <link rel="stylesheet" href="../css/html-info.css">
-    <title>HTML5 Cheat Sheet</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Coding Cheat Sheet</title>
   </head>
-
   <body>
 
+<!-- END OF 'HEAD SECTION'-->
+<!-- HEADER SECTION -->
+
     <header>
-      <h1 id="header">HTML5 Cheat Sheet</h1>
+      <h1 class="red">HTML5 Cheat Sheet</h1>
     </header>
 
+<!-- END OF 'HEADER SECTION' -->
+<!-- COLOUR WALL -->
+
     <div class="color-wall">
+
+<!-- NAVIGATION SECTION -->
 
       <div class="main-nav">
         <div class="nav-background">
 
+<!-- PAGE NAVIGATION -->
+
       <nav class="page-nav">
         <ul>
-          <li class="return-main">
+          <li class="return-nav">
             <a href="./index.html">
               <img
                 src="../../images/double-left-red.png"
@@ -43,7 +54,7 @@
             src="../../images/html5.png" 
             alt="Html5 symbol red colour">
           </li>
-          <li class="advance-semantic">
+          <li class="advance-nav">
             <a href="./html-info-semantic.html">
               <img
                 src="../../images/double-right-red.png"
@@ -52,6 +63,9 @@
           </li>
         </ul>
       </nav>
+
+<!-- END OF 'PAGE NAVIGATION'-->     
+<!-- INTERNAL NAVIGATION -->
 
       <nav class="nav-top no-link">
         <ul>
@@ -67,13 +81,20 @@
         </ul>
       </nav>
 
+<!-- END OF 'INTERNAL NAVIGATION' -->
+
       <hr>
     </div>
   </div>
 
-     <!-- TEXT -->
+<!-- END OF 'NAVIGATION SECTION' --> 
+<!-- MAIN SECTION -->
+<!-- HTML INFO -->
 
      <section class="html-info">
+
+<!-- INTRODUCTION SECTION -->
+<!-- INTRODUCTION TEXT -->
 
       <h2>HyperText Markup Language</h2>
       <p>
@@ -81,6 +102,9 @@
         <br>
         As per convention  the tags are typed in lowercase. 
       </p>
+
+<!-- END OF 'INTRODUCTION TEXT' -->
+<!-- INTRODUCTION STRUCTURE -->
 
       <h3>Basic structure</h3>
       <div class="structure nested-two no-link">
@@ -140,7 +164,9 @@
         </a>
       </div>
 
-      <!-- GENERAL TAGS -->
+<!-- END OF 'INTRODUCTION STRUCTURE' -->
+<!-- END OF 'INTRODUCTION SECTION'-->
+<!-- GENERAL TAGS -->
 
       <h3 id="general">General tags</h3>
       <p>
@@ -149,7 +175,8 @@
         All tags (with some exceptions) need to be closed with a closing tag like so: <b class="red">&lt;/x&gt;</b>.
       </p>
 
-      <!-- GENERAL TAGS TABLE -->
+<!-- END OF 'GENERAL TAGS'-->      
+<!-- GENERAL TAGS TABLE -->
 
       <table>
           <thead>
@@ -512,7 +539,8 @@
         </tbody>
       </table>
 
-      <!-- FORMATTING TAGS -->
+<!-- END OF 'GENERAL TAGS TABLE' -->      
+<!-- FORMATTING TAGS -->
 
       <h3 id="formatting">Formatting tags</h3>
       <p>
@@ -521,7 +549,8 @@
         These tags play a crucial role in enhancing the readability and visual appeal of web pages.
       </p>
 
-      <!-- FORMATTING TAGS TABLE -->
+<!-- END OF 'FORMATTING TAGS' -->
+<!-- FORMATTING TAGS TABLE -->
 
       <table>
         <thead>
@@ -860,7 +889,8 @@
         </tbody>
       </table>
 
-          <!-- TABLE TAGS -->
+<!-- END OF 'FORMATTING TAGS TABLE' -->
+<!-- TABLE TAGS -->
 
           <h3 id="table">Table tags</h3>
           <p>
@@ -868,7 +898,8 @@
             making it easier to read and understand.
           </p>
 
-          <!-- TABLE TAGS TABLE -->
+<!-- TEND OF 'TABLE TAGS' -->
+<!-- TABLE TAGS TABLE -->
 
           <table>
             <thead>
@@ -996,7 +1027,8 @@
             </tbody>
           </table>
 
-          <!-- TABLE TAGS STRUCTURE -->
+<!-- END OF 'TABLE TAGS TABLE' -->
+<!-- TABLE TAGS STRUCTURE -->
 
           <h3>Table Tag structure</h3>
       <div class="structure nested-two no-link">
@@ -1115,7 +1147,9 @@
         <span class="nested-one"><b class="red">...</b></span>
       </div>
 
-      <!-- MEDIA TAGS -->
+<!-- END OF 'TABLE TAGS STRUCTURE' -->
+<!-- MEDIA TAGS -->
+<!-- MEDIA INTRO -->
 
       <h3 id="media">Media tags</h3>
       <p>
@@ -1126,7 +1160,8 @@
         making the content more engaging and interactive. 
       </p>
 
-      <!-- EMBED MEDIA TAG -->
+<!-- END OF 'MEDIA INTRO' -->
+<!-- EMBED MEDIA TAG -->
 
       <h4>Embed</h4>
       <p>
@@ -1137,7 +1172,8 @@
         and <b class="red">&lt;audio&gt;</b> when appropriate.
       </p>
 
-      <!-- EMBED TABLE -->
+<!-- END OF 'EMBED MEDIA TAG' -->
+<!-- EMBED TABLE -->
 
       <table>
         <tbody>
@@ -1170,7 +1206,8 @@
         </tbody>
       </table>
 
-      <!-- ANCHOR MEDIA TAG -->
+<!-- END OF 'EMBED TABLE' -->
+<!-- ANCHOR MEDIA TAG -->
       
       <h4>Anchor</h4>
       <p>
@@ -1179,10 +1216,10 @@
         or even wrap other elements like images.
       </p>
 
-      <!-- ANCHOR TABLE "NAVIGATION" -->
+<!-- END OF 'ANCHOR MEDIA TAG' -->
+<!-- ANCHOR TABLE "NAVIGATION" -->
 
       <h5>Internal navigation</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1206,7 +1243,8 @@
         </tbody>
       </table>
 
-      <!-- ANCHOR TABLE "HYPERLINK" -->
+<!-- END OF 'ANCHOR TABLE "NAVIGATION"' -->
+<!-- ANCHOR TABLE "HYPERLINK" -->
 
       <h5>External navigation</h5>
 
@@ -1231,10 +1269,10 @@
         </tbody>
       </table>
 
-      <!-- ANCHOR TABLE "HYPERLINK BLANK" -->
+<!-- END OF 'ANCHOR TABLE "HYPERLINK"' -->
+<!-- ANCHOR TABLE "HYPERLINK BLANK" -->
 
       <h5>External navigation 2</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1261,10 +1299,10 @@
         </tbody>
       </table>
 
-      <!-- ANCHOR TABLE "SEND EMAIL" -->
+<!-- END OF 'ANCHOR TABLE "HYPERLINK BLANK"' -->
+<!-- ANCHOR TABLE "SEND EMAIL" -->
 
       <h5>Send email</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1291,7 +1329,8 @@
         </tbody>
       </table>
 
-      <!-- IMAGE MEDIA TAG -->
+<!-- END OF 'ANCHOR TABLE "SEND EMAIL"'' -->
+<!-- IMAGE MEDIA TAG -->
 
       <h4>Image</h4>
       <p>
@@ -1301,10 +1340,10 @@
         image source and the alt attribute to provide alternative text for accessibility.
       </p>
 
-      <!-- IMAGE TABLE -->
+<!-- END OF 'IMAGE MEDIA TAG' -->
+<!-- IMAGE TABLE -->
 
       <h5>Regular image</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1332,10 +1371,10 @@
         </tbody>
       </table>
 
-      <!-- IMAGE TABLE "WRAPPED IMAGES" -->
+<!-- END OF 'IMAGE TABLE' -->
+<!-- IMAGE TABLE "WRAPPED IMAGES" -->
 
       <h5>Wrapped image</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1367,10 +1406,10 @@
         </tbody>
       </table>
 
-      <!-- IMAGE TABLE "FIGURE IMAGE" -->
+<!-- END OF 'IMAGE TABLE "WRAPPED IMAGES"' -->
+<!-- IMAGE TABLE "FIGURE IMAGE" -->
 
       <h5>Figure image</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1406,7 +1445,8 @@
         </tbody>
       </table>
 
-      <!-- VIDEO MEDIA TAG -->
+<!-- END OF 'IMAGE TABLE "FIGURE IMAGE"' -->
+<!-- VIDEO MEDIA TAG -->
 
       <h4>Video</h4>
       <p>
@@ -1416,10 +1456,10 @@
         video player.
       </p>
 
-      <!-- VIDEO TABLE "REGULAR" -->
+<!-- END OF 'VIDEO MEDIA TAG' -->
+<!-- VIDEO TABLE "REGULAR" -->
 
       <h5>Regular video</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1456,15 +1496,15 @@
                 The <b>controls</b> attribute adds playback controls like play, pause, and volume.
                 <br>
                 The text inside the tag provides a fallback message if the video is not displayed.
-                </td>
+              </td>
           </tr>
         </tbody>
       </table>
 
-      <!-- VIDEO TABLE "MULTIPLE SOURCES" -->
+<!-- END OF 'VIDEO TABLE "REGULAR"' -->
+<!-- VIDEO TABLE "MULTIPLE SOURCES" -->
 
       <h5>Several sources video</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1529,7 +1569,8 @@
         </tbody>
       </table>
 
-      <!-- AUDIO MEDIA TAG -->
+<!-- END OF 'VIDEO TABLE "MULTIPLE SOURCES"' -->
+<!-- AUDIO MEDIA TAG -->
 
       <h4>Audio</h4>
       <p>
@@ -1539,10 +1580,10 @@
         options if the first source fails.
       </p>
 
-      <!-- AUDIO TABLE "REGULAR" -->
+<!-- END OF 'AUDIO MEDIA TAG' -->
+<!-- AUDIO TABLE "REGULAR" -->
 
       <h5>Regular audio</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1577,10 +1618,10 @@
         </tbody>
       </table>
 
-      <!-- AUDIO TABLE "SEVERAL SOURCES" -->
+<!-- END OF 'AUDIO TABLE "REGULAR"' -->
+<!-- AUDIO TABLE "SEVERAL SOURCES" -->
 
       <h5>Several sources audios</h5>
-
       <table>
         <tbody>
           <tr>
@@ -1636,8 +1677,14 @@
         </tbody>
       </table>
 
+<!-- END OF 'AUDIO TABLE "SEVERAL SOURCES"' -->
+
     </section>
     </div>
+
+<!-- END OF 'HTML INFO' -->
+<!-- END OF 'COLOUR WALL'-->
+<!-- END OF 'MAIN SECTION' -->
 
   </body>
 </html>

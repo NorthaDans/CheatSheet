@@ -1,97 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
+
+<!-- HEAD SECTION-->
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin="crossorigin"
-    />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
       href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin="crossorigin"
-    />
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
       href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../../code/css/html-info-history.css" />
-    <title>HTML5 Cheat Sheet</title>
+      rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Coding Cheat Sheet</title>
   </head>
   <body>
+    
+<!-- HEADER SECTION -->
+
     <header>
-      <h1>HTML5 Cheat Sheet</h1>
+      <h1 class="red">HTML5 Cheat Sheet</h1>
     </header>
-    <!-- &lt;/a&gt; these characters will create angel brackets-->
+
+<!-- END OF 'HEADER SECTION' -->
+<!-- COLOUR WALL -->
+
     <div class="color-wall">
+      
+<!-- NAVIGATION SECTION -->
+
       <section class="main-nav">
         <div class="nav-background">
-      <nav class="page-nav">
-        <ul>
-          <li class="return-semantic">
-            <a href="./html-info-semantic.html">
-              <img
-                src="../../images/double-left-red.png"
-                alt="left navigation arrow"
-              />
-            </a>
-          </li>
-          <li class="nav-img-meny">
-            <img src="../../images/html5.png" alt="Html5 symbol red colour" />
-          </li>
-          <li class="advance-main">
-            <a href="./index.html">
-              <img
-                src="../../images/double-right-red.png"
-                alt="right navigation arrow"
-              />
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="nav-top">
-        <ul>
-          <li>
-            item 1
-          </li>
-          <p>
-            &#124;
-          </p>
-          <li>
-            item 2
-          </li>
-          <p>
-            &#124;
-          </p>
-          <li>
-            item 3
-          </li>
-          <p>
-            &#124;
-          </p>
-          <li>
-            item 4
-          </li>
-          <p>
-            &#124;
-          </p>
-          <li>
-            item 6
-          </li>
-        </ul>
-      </nav>
-      <hr>
-      </div>
-    </section>
+          
+<!-- PAGE NAVIGATION -->
+
+          <nav class="page-nav">
+            <ul>
+              <li class="return-nav">
+                <a href="./html-info-semantic.html">
+                  <img
+                    src="../../images/double-left-red.png"
+                    alt="left navigation arrow">
+                </a>
+              </li>
+              <li class="nav-img-meny">
+                <img
+                  src="../../images/html5.png"
+                  alt="Html5 symbol red colour">
+              </li>
+              <li class="advance-nav">
+                <a href="./index.html">
+                  <img
+                    src="../../images/double-right-red.png"
+                    alt="right navigation arrow"
+                  />
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+<!-- END OF 'PAGE NAVIGATION'-->
+<!-- INTERNAL NAVIGATION -->
+
+          <nav class="nav-top no-link">
+            <ul>
+              <li>
+                <a href="#header"><b>Top</b></a>
+              </li>
+              <li>&#124;</li>
+              <li>
+                <a href="#general"><b>General</b></a>
+              </li>
+              <li>&#124;</li>
+              <li>
+                <a href="#formatting"><b>Formatting</b></a>
+              </li>
+              <li>&#124;</li>
+              <li>
+                <a href="#table"><b>Table</b></a>
+              </li>
+              <li>&#124;</li>
+              <li>
+                <a href="#media"><b>Media</b></a>
+              </li>
+            </ul>
+          </nav>
+
+<!-- END OF 'INTERNAL NAVIGATION' -->
+
+          <hr>
+        </div>
+      </section>
+
+<!-- END OF 'NAVIGATION SECTION' -->
+<!-- MAIN SECTION -->
+<!-- HTML HISTORY -->
+
       <section class="html-history">
+        
+<!-- INTRODUCTION SECTION -->
+<!-- INTRODUCTION TEXT -->
+
         <h3>History of HTML</h3>
         <p>
           HTML is short for HyperText Markup Language. HTML has played a crucial
@@ -100,6 +114,10 @@
           from a simple markup language into a powerful tool for creating
           dynamic and interactive web applications.
         </p>
+
+<!-- END OF 'INTRODUCTION TEXT' -->
+<!-- HISTORY TEXT -->
+
         <h4>1989-1991: Birth of HTML</h4>
         <ul>
           <li>
@@ -116,6 +134,7 @@
             tags.
           </li>
         </ul>
+
         <h4>1993: HTML 2</h4>
         <ul>
           <li>
@@ -128,6 +147,7 @@
             the original HTML and additional elements from browser developers.
           </li>
         </ul>
+
         <h4>1997: HTML 3.2 and HTML 4</h4>
         <ul>
           <li>
@@ -170,6 +190,7 @@
             controls, and offline storage.
           </li>
         </ul>
+
         <h4>2014-Present: HTML Living Standard</h4>
         <ul>
           <li>
@@ -212,7 +233,15 @@
             HTML evolves as a living standard, with continuous updates.
           </li>
         </ul>
+
+<!-- END OF 'HISTORY TEXT' -->
+
       </section>
     </div>
+
+<!-- END OF 'COLOUR WALL' -->
+<!-- END OF 'HTML HISTORY' -->
+<!-- END OF 'MAIN SECTION' -->
+
   </body>
 </html>

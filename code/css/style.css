@@ -1,3 +1,6 @@
+
+/* UNIVERSAL STYLES */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -14,8 +17,6 @@ body {
   background-color: hsl(0, 0%, 100%);
 }
 
-/* HEADER SECTION  */
-
 header {
   width: 80%;
   margin: 0 auto 10px;
@@ -25,12 +26,19 @@ header h1 {
   font-family: "Jacquard 12", "Times New Roman", Times, serif;
   font-weight: 300;
   font-size: 100px;
-  color: hsl(21, 100%, 45%);
+  color: hsl(0, 0%, 0%);
   text-align: center;
   margin: 30px 15px 10px;
 }
 
-/* FOREGROUND SECTION  */
+hr {
+  width: 100%;
+  margin-top: 30px;
+  border: 2px solid;
+  color: hsl(220, 1%, 46%);
+}
+
+/* FOREGROUND STYLES  */
 
 .color-wall {
   width: 80%;
@@ -48,7 +56,7 @@ header h1 {
   text-align: left;
 }
 
-/* NAV-BAR SECTION */
+/* NAVIGATION STYLES */
 
 nav {
   width: 100%;
@@ -89,13 +97,13 @@ nav {
   justify-content: center;
 }
 
-.return-main a,
-.advance-semantic a {
+.return-nav a,
+.advance-nav a {
   object-fit: cover;
 }
 
-.return-main img,
-.advance-semantic img {
+.return-nav img,
+.advance-nav img {
   width: 100%;
   height: 20px;
 }
@@ -122,25 +130,22 @@ nav {
   background-color: hsl(0, 0%, 100%);
 }
 
-hr {
-  width: 100%;
-  margin-top: 30px;
-  border: 2px solid;
-  color: hsl(220, 1%, 46%);
-}
-
 /* TEXT STYLES */
 
 .red {
   color: hsl(21, 100%, 45%);
 }
 
-.green {
-  color: hsl(120, 100%, 50%);
-}
-
 .yellow {
   color: hsl(36, 100%, 50%);
+}
+
+.blue {
+  color: hsl(203, 99%, 37%);
+}
+
+.green {
+  color: hsl(120, 100%, 50%);
 }
 
 .italic {
@@ -168,13 +173,13 @@ hr {
   text-decoration: none;
 }
 
+/* HTML INFO STYLES */
+
 .html-info {
   text-align: left;
   margin-left: 40px;
   margin-right: 40px;
 }
-
-/* can we remove the following class without distyrbing the styles? */
 
 .html-info h2 {
   font-weight: 800;
@@ -207,6 +212,42 @@ hr {
 }
 
 .html-info b {
+  font-weight: 800;
+}
+
+/* HTML HISTORY STYLES */
+
+.html-history {
+  text-align: left;
+  margin-left: 40px;
+}
+
+.html-history h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  margin: 20px 30px 10px;
+}
+
+.html-history p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin: 40px 30px 30px;
+}
+
+.html-history h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin: 40px 30px 20px;
+}
+
+.html-history li {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  margin: 10px 80px;
+}
+
+.html-history b {
+  font-family: "Times New Roman", Times, serif;
   font-weight: 800;
 }
 
