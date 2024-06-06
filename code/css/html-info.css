@@ -186,14 +186,19 @@ hr {
   margin: 20px 30px 10px;
 }
 
-.html-info p {
-  font-weight: 400;
-  margin: 10px 30px;
-}
-
 .html-info h4 {
   font-weight: 600;
   margin: 20px 30px 10px;
+}
+
+.html-info h5 {
+  font-weight: 600;
+  margin: 20px 30px -25px;
+}
+
+.html-info p {
+  font-weight: 400;
+  margin: 10px 30px;
 }
 
 .html-info li {
@@ -286,7 +291,8 @@ tr:hover td,
 tr:hover th,
 tr:hover span,
 tr:hover a,
-tr:hover b {
+tr:hover b,
+tr:hover p {
   color: hsl(0, 0%, 100%);
   background-color: hsl(21, 100%, 45%);
 }

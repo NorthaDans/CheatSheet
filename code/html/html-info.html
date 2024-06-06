@@ -83,7 +83,7 @@
       </p>
 
       <h3>Basic structure</h3>
-      <div class="structure no-link">
+      <div class="structure nested-two no-link">
         <a href="#table-doctype">
         <b class="red">&lt;!DOCTYPE html&gt;</b>
         </a>
@@ -999,7 +999,7 @@
           <!-- TABLE TAGS STRUCTURE -->
 
           <h3>Table Tag structure</h3>
-      <div class="structure no-link">
+      <div class="structure nested-two no-link">
         <span class="nested-one"><b class="red">...</b></span>
           <br>
         <a href="#table-table" class="nested-two">
@@ -1165,14 +1165,135 @@
                 </div>
               </a>
               </td>
-            <td>text</td>
+            <td>In this example we ask the browser to display a PDF with a predefined size.</td>
           </tr>
         </tbody>
       </table>
 
-      <!-- IMAGES MEDIA TAG -->
+      <!-- ANCHOR MEDIA TAG -->
+      
+      <h4>Anchor</h4>
+      <p>
+        The <b class="red">&lt;a&gt;</b> tag is used to create hyperlinks.
+        It can link to external web pages, internal pages, email addresses,
+        or even wrap other elements like images.
+      </p>
 
-      <h4>Images</h4>
+      <!-- ANCHOR TABLE "NAVIGATION" -->
+
+      <h5>Internal navigation</h5>
+
+      <table>
+        <tbody>
+          <tr>
+            <td class="col-50 bigger-text">
+              <a 
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+              target="_blank"
+              class="no-link">
+              <span class="red">&lt;a</span>
+              <span class="green">href</span>
+              <span class="yellow">="./contact.html"</span>
+              <span class="red">&gt;</span>
+              <p class="smaller-text italic">Click here</p>
+              <span class="red">&lt;a&gt;</span>
+              </a>
+            </td>
+            <td class="col-50">
+              In navigation to another internal page to the website you can use the anchor tag to attach the hyperlink to text.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- ANCHOR TABLE "HYPERLINK" -->
+
+      <h5>External navigation</h5>
+
+      <table>
+        <tbody>
+          <tr>
+            <td class="col-50 bigger-text">
+              <a 
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+              target="_blank"
+              class="no-link">
+              <span class="red">&lt;a</span>
+              <span class="green">href</span>
+              <span class="yellow">="https://www.example.com"</span>
+              <span class="red">&gt;</span>
+              <p class="smaller-text italic">Click here</p>
+              <span class="red">&lt;a&gt;</span>
+              </a>
+            </td>
+            <td class="col-50">We can also use the anchor tag to link to an external webbsite.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- ANCHOR TABLE "HYPERLINK BLANK" -->
+
+      <h5>External navigation 2</h5>
+
+      <table>
+        <tbody>
+          <tr>
+            <td class="col-50 bigger-text">
+              <a 
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+              target="_blank"
+              class="no-link">
+              <span class="red">&lt;a</span>
+              <div class="nested-two">
+              <span class="green">href</span>
+              <span class="yellow">="https://www.example.com"</span>
+              <br>
+              <span class="green">target</span>
+              <span class="yellow">="_blank"</span>
+              <span class="red">&gt;</span>
+              </div>
+              <p class="smaller-text italic">Click here</p>
+              <span class="red">&lt;a&gt;</span>
+              </a>
+            </td>
+            <td class="col-50">We can add the _blank attribute to make sure the link opens in a new tab.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- ANCHOR TABLE "SEND EMAIL" -->
+
+      <h5>Send email</h5>
+
+      <table>
+        <tbody>
+          <tr>
+            <td class="col-50 bigger-text">
+              <a 
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+              target="_blank"
+              class="no-link">
+              <span class="red">&lt;a</span>
+              <span class="green">href</span>
+              <span class="yellow">="mailto:example@email.com"</span>
+              <span class="red">&gt;</span>
+              <p class="smaller-text italic">Send email</p>
+              <span class="red">&lt;a&gt;</span>
+              </a>
+            </td>
+            <td class="col-50">
+              We can also send an email with the anchor tag.
+              <br>
+              This structure would produce the text,
+              and when clicked it will open the users mail client with a new email ready to be drafted to the email we have embeded.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- IMAGE MEDIA TAG -->
+
+      <h4>Image</h4>
       <p>
         The <b class="red">&lt;img&gt;</b> tag is used to embed images in an HTML document.
         It is a self-closing tag and requires the src attribute to specify the
@@ -1181,6 +1302,8 @@
       </p>
 
       <!-- IMAGE TABLE -->
+
+      <h5>Regular image</h5>
 
       <table>
         <tbody>
@@ -1191,24 +1314,101 @@
               target="_blank"
               class="no-link">
                 <span class="red">&lt;img</span>
-                <div class="nested-two">
                 <span class="green">src</span>
                 <span class="yellow">="image.jpg"</span>
-                <br>
                 <span class="green">alt</span>
                 <span class="yellow">="an image"</span>
                 <span class="red">&gt;</span>
-                </div>
               </a>
               </td>
-            <td class="col-50 bigger-text">text</td>
+            <td class="col-50">
+              A regular image tag uses the <b>src</b> attribute to specify the image file's path.
+              <br>
+              You can use an external URL <b>(https://example.com/image.jpg)</b> or a local path <b>(./images/image.jpg).</b>
+              <br>
+              Additionally, for accessibility, you should provide a description of the image in the alt attribute.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- IMAGE TABLE "WRAPPED IMAGES" -->
+
+      <h5>Wrapped image</h5>
+
+      <table>
+        <tbody>
+          <tr>
+            <td class="col-50 bigger-text">
+              <a 
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+              target="_blank"
+              class="no-link">
+              <span class="red">&lt;a</span>
+              <span class="green">href</span>
+              <span class="yellow">="https://www.example.com"</span>
+              <span class="red">&gt;</span>
+              <div class="nested-two">
+                <span class="red">&lt;img</span>
+                <span class="green">src</span>
+                <span class="yellow">="image.jpg"</span>
+                <span class="green">alt</span>
+                <span class="yellow">="an image"</span>
+                <span class="red">&gt;</span>
+              </div>
+              <span class="red">&lt;a&gt;</span>
+              </a>
+            </td>
+            <td class="col-50">
+              You can create a clickable image using an anchor <b>&lt;a&gt;</b>
+              tag that wraps around an image <b>&lt;img&gt;</b>.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- IMAGE TABLE "FIGURE IMAGE" -->
+
+      <h5>Figure image</h5>
+
+      <table>
+        <tbody>
+          <tr>
+            <td class="col-50 bigger-text">
+              <a 
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure"
+              target="_blank"
+              class="no-link">
+              <span class="red">&lt;figure&gt;</span>
+              <div class="nested-two">
+                <span class="red">&lt;img</span>
+                <span class="green">src</span>
+                <span class="yellow">="image.jpg"</span>
+                <span class="green">alt</span>
+                <span class="yellow">="an image"</span>
+                <span class="red">&gt;</span>
+                <span class="red">&lt;figcaption&gt;</span>
+                <span class="smaller-text italic">a caption for the image.</span>
+                <span class="red">&lt;/figcaption&gt;</span>
+              </div>
+              <span class="red">&lt;/figure&gt;</span>
+            </a>
+            </td>
+            <td>
+              You can group an image with a caption using the <b>&lt;figure&gt;</b> tag.
+              <br>
+              The <b>&lt;img&gt;</b> tag specifies the image, and the <b>&lt;figcaption&gt;</b>
+              tag provides a caption for the image.
+              <br>
+              This structure is useful for associating images with their descriptions in a semantic and accessible way.
+            </td>
           </tr>
         </tbody>
       </table>
 
       <!-- VIDEO MEDIA TAG -->
 
-      <h4>Videos</h4>
+      <h4>Video</h4>
       <p>
         The <b class="red">&lt;video&gt;</b> tag is used to embed video content.
         It allows you to specify the source, dimensions, and control options for the
@@ -1216,7 +1416,9 @@
         video player.
       </p>
 
-      <!-- VIDEO TABLE -->
+      <!-- VIDEO TABLE "REGULAR" -->
+
+      <h5>Regular video</h5>
 
       <table>
         <tbody>
@@ -1245,6 +1447,27 @@
                 <span class="red">&lt;/video&gt;</span>
               </a>
               </td>
+              <td class="col-50">
+                You can embed a video in a web page using the <b>&lt;video&gt;</b> tag.
+                <br>
+                The <b>src</b> attribute specifies the video file's path, while the <b>width</b>
+                and <b>height</b> attributes set the dimensions of the video player.
+                <br>
+                The <b>controls</b> attribute adds playback controls like play, pause, and volume.
+                <br>
+                The text inside the tag provides a fallback message if the video is not displayed.
+                </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- VIDEO TABLE "MULTIPLE SOURCES" -->
+
+      <h5>Several sources video</h5>
+
+      <table>
+        <tbody>
+          <tr>
             <td class="col-50 bigger-text">
               <a 
               href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"
@@ -1290,13 +1513,25 @@
                 </div>
               </a>
             </td>
+            <td class="col-50">
+              You can embed a video in a web page using the <b>&lt;video&gt;</b> tag with multiple
+              <b>&lt;source&gt;</b> elements to provide different formats for better browser
+              compatibility. 
+              <br>
+              The src attribute in the <b>&lt;video&gt;</b> tag specifies a fallback video file,
+              while the width and height attributes set the dimensions of the video player.
+              <br>
+              The controls attribute adds playback controls like play, pause, and volume.
+              <br>
+              The text inside the tag provides a fallback message if the video is not supported.
+              </td>
           </tr>
         </tbody>
       </table>
 
       <!-- AUDIO MEDIA TAG -->
 
-      <h4>Audios</h4>
+      <h4>Audio</h4>
       <p>
         The <b class="red">&lt;audio&gt;</b> tag is used to embed audio content.
         You can specify multiple sources within the &lt;audio&gt; tag to provide fallback
@@ -1304,7 +1539,9 @@
         options if the first source fails.
       </p>
 
-      <!-- AUDIO TABLE -->
+      <!-- AUDIO TABLE "REGULAR" -->
+
+      <h5>Regular audio</h5>
 
       <table>
         <tbody>
@@ -1327,6 +1564,26 @@
                 <span class="red">&lt;/audio&gt;</span>
               </a>
             </td>
+            <td class="col-50">
+              You can embed an audio file in a web page using the <b>&lt;audio&gt;</b> tag.
+              <br>
+              The <b>src</b> attribute specifies the audio file's path.
+              <br>
+              The <b>controls</b> attribute adds playback controls like play, pause, and volume.
+              <br>
+              The text inside the tag provides a fallback message if the audio is not supported.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- AUDIO TABLE "SEVERAL SOURCES" -->
+
+      <h5>Several sources audios</h5>
+
+      <table>
+        <tbody>
+          <tr>
             <td class="col-50 bigger-text">
               <a 
               href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"
@@ -1362,10 +1619,25 @@
               <span class="red">&lt;/audio&gt;</span>
               </a>
             </td>
+            <td class="col-50">
+              You can embed an audio file in a web page using the <b>&lt;audio&gt;</b>
+              tag with multiple <b>&lt;source&gt;</b> elements to provide different formats for
+              better browser compatibility.
+              <br>
+              Each <b>&lt;source&gt;</b> element specifies a different audio file format using the 
+              <b>src</b> and <b>type</b> attributes.
+              <br>
+              The <b>controls</b> attribute adds playback controls like play, pause, and volume.
+              <br>
+              The text inside the tag provides a fallback message if the audio is not supported.
+              </a>
+            </td>
           </tr>
         </tbody>
       </table>
+
     </section>
     </div>
+
   </body>
 </html>
