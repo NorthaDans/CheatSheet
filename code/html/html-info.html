@@ -1,151 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
       href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap"
-      rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
       href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap"
-      rel="stylesheet"/>
-    <link rel="stylesheet" href="../css/html-info.css" />
+      rel="stylesheet">
+    <link rel="stylesheet" href="../css/html-info.css">
     <title>HTML5 Cheat Sheet</title>
   </head>
+
   <body>
+
     <header>
       <h1 id="header">HTML5 Cheat Sheet</h1>
     </header>
+
     <div class="color-wall">
-      <section class="main-nav">
+
+      <div class="main-nav">
         <div class="nav-background">
+
       <nav class="page-nav">
         <ul>
           <li class="return-main">
             <a href="./index.html">
               <img
                 src="../../images/double-left-red.png"
-                alt="left navigation arrow" />
+                alt="left navigation arrow">
             </a>
           </li>
           <li class="nav-img-meny">
             <img 
             src="../../images/html5.png" 
-            alt="Html5 symbol red colour" />
+            alt="Html5 symbol red colour">
           </li>
           <li class="advance-semantic">
             <a href="./html-info-semantic.html">
               <img
                 src="../../images/double-right-red.png"
-                alt="right navigation arrow" />
+                alt="right navigation arrow">
             </a>
           </li>
         </ul>
       </nav>
+
       <nav class="nav-top no-link">
         <ul>
-          <li>
-            <a href="#header"><b>Top</b></a>
-          </li>
-          <p>&#124;</p>
-          <li>
-            <a href="#general"><b>General</b></a>
-          </li>
-          <p>&#124;</p>
-          <li>
-            <a href="#formatting"><b>Formatting</b></a>
-          </li>
-          <p>&#124;</p>
-          <li>
-            <a href="#table"><b>Table</b></a>
-          </li>
-          <p>&#124;</p>
-          <li>
-            <a href="#media"><b>Media</b></a>
-          </li>
+          <li><a href="#header"><b>Top</b></a></li>
+          <li>&#124;</li>
+          <li><a href="#general"><b>General</b></a></li>
+          <li>&#124;</li>
+          <li><a href="#formatting"><b>Formatting</b></a></li>
+          <li>&#124;</li>
+          <li><a href="#table"><b>Table</b></a></li>
+          <li>&#124;</li>
+          <li><a href="#media"><b>Media</b></a></li>
         </ul>
       </nav>
+
       <hr>
-      </div>
-    </section>
+    </div>
+  </div>
+
      <!-- TEXT -->
+
      <section class="html-info">
+
       <h2>HyperText Markup Language</h2>
       <p>
         HTML should be run through a validator to make sure it adheres to standards.
         <br>
         As per convention  the tags are typed in lowercase. 
       </p>
+
       <h3>Basic structure</h3>
-      <p class="structure">
-        <a href="#table-doctype" id="no-link">
+      <div class="structure no-link">
+        <a href="#table-doctype">
         <b class="red">&lt;!DOCTYPE html&gt;</b>
         </a>
         <br>
-        <a href="#table-html" id="no-link">
+        <a href="#table-html">
         <b class="red">&lt;html&gt;</b>
         </a>
         <br>
-        <a href="#table-head" id="no-link">
+        <a href="#table-head">
         <span class="nested-one"><b class="red">&lt;head&gt;</b></span>
         </a>
         <br>
-        <a href="#table-title" id="no-link">
-        <span class="nested-two"><b class="red">&lt;title&gt;</b></a>
+        <a href="#table-title" class="nested-two">
+        <b class="red">&lt;title&gt;</b></a>
           <span class="italic smaller-text">Title of the document</span>
-          <a href="#table-title" id="no-link">
-          <b class="red">&lt;/title&gt;</b></span></a>
+          <a href="#table-title">
+          <b class="red">&lt;/title&gt;</b>
         </a>
         <br>
-        <a href="#table-head" id="no-link">
+        <a href="#table-head">
         <span class="nested-one"><b class="red">&lt;/head&gt;</b></span>
         </a>
         <br>
-        <a href="#table-body" id="no-link">
+        <a href="#table-body">
         <span class="nested-one"><b class="red">&lt;body&gt;</b></span>
         </a>
         <br>
-        <a href="#table-div" id="no-link">
+        <a href="#table-div">
         <span class="nested-two"><b class="red">&lt;div&gt;</b></span>
         </a>
         <br>
-        <a href="#table-headings" id="no-link">
-        <span class="nested-three"><b class="red">&lt;h1&gt;</b></a>
+        <a href="#table-headings" class="nested-two">
+        <b class="red">&lt;h1&gt;</b></a>
           <span class="italic smaller-text">Heading 1</span>
-          <a href="#table-headings" id="no-link">
-          <b class="red">&lt;/h1&gt;</b></span></a>
+          <a href="#table-headings">
+          <b class="red">&lt;/h1&gt;</b></a>
         <br>
-        <a href="#table-headings" id="no-link">
-        <span class="nested-three"><b class="red">&lt;h2&gt;</b></a>
+        <a href="#table-headings" class="nested-three">
+        <b class="red">&lt;h2&gt;</b></a>
           <span class="italic smaller-text">Heading 2</span>
-          <a href="#table-headings" id="no-link">
-          <b class="red">&lt;/h2&gt;</b></span></a>
-        </a>
+          <a href="#table-headings">
+          <b class="red">&lt;/h2&gt;</b></a>
         <br>
-        <a href="#table-div" id="no-link">
+        <a href="#table-div">
         <span class="nested-two"><b class="red">&lt;/div&gt;</b></span>
         </a>
         <br>
-        <a href="#table-body" id="no-link">
-        <span class="nested-one"><b class="red">&lt;/body&gt;</b></span>
+        <a href="#table-body" class="nested-one">
+        <b class="red">&lt;/body&gt;</b>
         </a>
         <br>
-        <a href="#table-html" id="no-link">
+        <a href="#table-html">
         <b class="red">&lt;/html&gt;</b>
         </a>
-      </p>
+      </div>
+
       <!-- GENERAL TAGS -->
+
       <h3 id="general">General tags</h3>
       <p>
         HTML tags are enclosed in angle brackets like so: <b class="red">&lt;x&gt;</b>. 
         <br>
         All tags (with some exceptions) need to be closed with a closing tag like so: <b class="red">&lt;/x&gt;</b>.
       </p>
+
       <!-- GENERAL TAGS TABLE -->
+
       <table>
           <thead>
             <tr>
@@ -472,9 +477,8 @@
               </td>
               <td><b>&lt;embed&gt;</b> <b class="red">&#x2747;</b></td>
               <td>
-                This is a legacy tag.
-                It has since been replaced by 
-                <b>&lt;img&gt;</b>, <b>&lt;video&gt;</b>, <b>&lt;audio&gt;</b>, <b>&lt;iframe&gt;</b>.
+                This is a legacy tag that can still be used but it is preferable to use
+                <b>&lt;img&gt;</b>, <b>&lt;video&gt;</b>, <b>&lt;audio&gt;</b>, <b>&lt;iframe&gt;</b> istead wherever possible.
               </td>
             </tr>
             <tr>
@@ -493,7 +497,6 @@
                 For example copyright and contact information.
               </td>
             </tr>
-          </tr>
           <tr>
             <td>
               <a 
@@ -508,14 +511,18 @@
           </tr>
         </tbody>
       </table>
+
       <!-- FORMATTING TAGS -->
+
       <h3 id="formatting">Formatting tags</h3>
       <p>
         Text formatting tags are used to emphasize, style, and differentiate content in various ways.
         <br>
         These tags play a crucial role in enhancing the readability and visual appeal of web pages.
       </p>
+
       <!-- FORMATTING TAGS TABLE -->
+
       <table>
         <thead>
           <tr>
@@ -852,13 +859,17 @@
           </tr>
         </tbody>
       </table>
+
           <!-- TABLE TAGS -->
+
           <h3 id="table">Table tags</h3>
           <p>
             Tables in HTML are used to organize and display data in a structured format,
             making it easier to read and understand.
           </p>
+
           <!-- TABLE TAGS TABLE -->
+
           <table>
             <thead>
               <tr>
@@ -984,124 +995,128 @@
                 </tr>
             </tbody>
           </table>
+
           <!-- TABLE TAGS STRUCTURE -->
+
           <h3>Table Tag structure</h3>
-      <p class="structure">
+      <div class="structure no-link">
         <span class="nested-one"><b class="red">...</b></span>
           <br>
-        <a href="#table-table" id="no-link">
-          <span class="nested-two"><b class="red">&lt;table&gt;</b></span>
+        <a href="#table-table" class="nested-two">
+          <b class="red">&lt;table&gt;</b>
         </a>
         <br>
-        <a href="#table-thead" id="no-link">
-          <span class="nested-three"><b class="red">&lt;thead&gt;</b></span>
+        <a href="#table-thead" class="nested-three">
+          <b class="red">&lt;thead&gt;</b>
         </a>
         <br>
-        <a href="#table-tr" id="no-link">
-          <span class="nested-four"><b class="red">&lt;tr&gt;</b></span>
+        <a href="#table-tr" class="nested-four">
+          <b class="red">&lt;tr&gt;</b>
         </a>
         <br>
-        <a href="#table-th" id="no-link">
-          <span class="nested-five"><b class="red">&lt;th&gt;</b></a>
+        <a href="#table-th" class="nested-five">
+          <b class="red">&lt;th&gt;</b></a>
         <span class="italic smaller-text">Table heading 1</span>
-        <a href="#table-th" id="no-link">
-          <b class="red">&lt;/th&gt;</b></span></a>
+        <a href="#table-th">
+          <b class="red">&lt;/th&gt;</b></a>
         <br>
-        <a href="#table-th" id="no-link">
-          <span class="nested-five"><b class="red">&lt;th&gt;</b></a>
+        <a href="#table-th" class="nested-five">
+          <b class="red">&lt;th&gt;</b></a>
         <span class="italic smaller-text">Table heading 2</span>
-        <a href="#table-th" id="no-link">
-          <b class="red">&lt;/th&gt;</b></span></a>
+        <a href="#table-th">
+          <b class="red">&lt;/th&gt;</b></a>
         <br>
-        <a href="#table-th" id="no-link">
-          <span class="nested-five"><b class="red">&lt;th&gt;</b></a>
+        <a href="#table-th" class="nested-five">
+          <b class="red">&lt;th&gt;</b></a>
         <span class="italic smaller-text">Table heading 3</span>
-        <a href="#table-th" id="no-link">
-          <b class="red">&lt;/th&gt;</b></span></a>
+        <a href="#table-th">
+          <b class="red">&lt;/th&gt;</b></a>
         <br>
-        <a href="#table-tr" id="no-link">
-          <span class="nested-four"><b class="red">&lt;/tr&gt;</b></span>
+        <a href="#table-tr" class="nested-four">
+          <b class="red">&lt;/tr&gt;</b>
         </a>
         <br>
-        <a href="#table-thead" id="no-link">
-          <span class="nested-three"><b class="red">&lt;/thead&gt;</b></span>
+        <a href="#table-thead" class="nested-three">
+          <b class="red">&lt;/thead&gt;</b>
         </a>
         <br>
-        <a href="#table-tbody" id="no-link">
-          <span class="nested-three"><b class="red">&lt;tbody&gt;</b></span>
+        <a href="#table-tbody" class="nested-three">
+          <b class="red">&lt;tbody&gt;</b>
         </a>
         <br>
-        <a href="#table-tr" id="no-link">
-          <span class="nested-four"><b class="red">&lt;tr&gt;</b></span>
+        <a href="#table-tr" class="nested-four">
+          <b class="red">&lt;tr&gt;</b>
         </a>
         <br>
-        <a href="#table-td" id="no-link">
-          <span class="nested-five"><b class="red">&lt;td&gt;</b></a>
+        <a href="#table-td" class="nested-five">
+          <b class="red">&lt;td&gt;</b></a>
         <span class="italic smaller-text">Table data 1</span>
-        <a href="#table-td" id="no-link">
-          <b class="red">&lt;/td&gt;</b></span></a>
+        <a href="#table-td">
+          <b class="red">&lt;/td&gt;</b></a>
         <br>
-        <a href="#table-td" id="no-link">
-          <span class="nested-five"><b class="red">&lt;td&gt;</b></a>
+        <a href="#table-td" class="nested-five">
+          <b class="red">&lt;td&gt;</b></a>
         <span class="italic smaller-text">Table data 2</span>
-        <a href="#table-th" id="no-link">
-          <b class="red">&lt;/td&gt;</b></span></a>
+        <a href="#table-th">
+          <b class="red">&lt;/td&gt;</b></a>
         <br>
-        <a href="#table-td" id="no-link">
-          <span class="nested-five"><b class="red">&lt;td&gt;</b></a>
+        <a href="#table-td" class="nested-five">
+          <b class="red">&lt;td&gt;</b></a>
         <span class="italic smaller-text">Table data 3</span>
-        <a href="#table-td" id="no-link">
-          <b class="red">&lt;/td&gt;</b></span></a>
+        <a href="#table-td">
+          <b class="red">&lt;/td&gt;</b></a>
         <br>
-        <a href="#table-tr" id="no-link">
-          <span class="nested-four"><b class="red">&lt;tr&gt;</b></span>
+        <a href="#table-tr" class="nested-four">
+          <b class="red">&lt;tr&gt;</b>
         </a>
         <br>
-        <a href="#table-tbody" id="no-link">
-          <span class="nested-three"><b class="red">&lt;/tbody&gt;</b></span>
+        <a href="#table-tbody" class="nested-three">
+          <b class="red">&lt;/tbody&gt;</b>
         </a>
         <br>
-        <a href="#table-tfooter" id="no-link">
-          <span class="nested-three"><b class="red">&lt;tfooter&gt;</b></span>
+        <a href="#table-tfooter" class="nested-three">
+          <b class="red">&lt;tfooter&gt;</b>
         </a>
         <br>
-        <a href="#table-tr" id="no-link">
-          <span class="nested-four"><b class="red">&lt;tr&gt;</b></span>
+        <a href="#table-tr" class="nested-four">
+          <b class="red">&lt;tr&gt;</b>
         </a>
         <br>
-        <a href="#table-td" id="no-link">
-          <span class="nested-five"><b class="red">&lt;td&gt;</b></a>
+        <a href="#table-td" class="nested-five">
+          <b class="red">&lt;td&gt;</b></a>
         <span class="italic smaller-text">Table footer 1</span>
-        <a href="#table-td" id="no-link">
-          <b class="red">&lt;/td&gt;</b></span></a>
+        <a href="#table-td">
+          <b class="red">&lt;/td&gt;</b></a>
         <br>
-        <a href="#table-td" id="no-link">
-          <span class="nested-five"><b class="red">&lt;td&gt;</b></a>
+        <a href="#table-td" class="nested-five">
+          <b class="red">&lt;td&gt;</b></a>
         <span class="italic smaller-text">Table footer 2</span>
-        <a href="#table-th" id="no-link">
-          <b class="red">&lt;/td&gt;</b></span></a>
+        <a href="#table-th">
+          <b class="red">&lt;/td&gt;</b></a>
         <br>
-        <a href="#table-td" id="no-link">
-          <span class="nested-five"><b class="red">&lt;td&gt;</b></a>
+        <a href="#table-td" class="nested-five">
+          <b class="red">&lt;td&gt;</b></a>
         <span class="italic smaller-text">Table footer 3</span>
-        <a href="#table-td" id="no-link">
-          <b class="red">&lt;/td&gt;</b></span></a>
+        <a href="#table-td">
+          <b class="red">&lt;/td&gt;</b></a>
         <br>
-        <a href="#table-tr" id="no-link">
-          <span class="nested-four"><b class="red">&lt;tr&gt;</b></span>
+        <a href="#table-tr" class="nested-four">
+          <b class="red">&lt;tr&gt;</b>
         </a>
         <br>
-        <a href="#table-tfooter" id="no-link">
-          <span class="nested-three"><b class="red">&lt;/tfooter&gt;</b></span>
+        <a href="#table-tfooter" class="nested-three">
+          <b class="red">&lt;/tfooter&gt;</b>
         </a>
         <br>
-        <a href="#table-table" id="no-link">
-          <span class="nested-two"><b class="red">&lt;/table&gt;</b></span>
+        <a href="#table-table" class="nested-two">
+          <b class="red">&lt;/table&gt;</b>
         </a>
         <br>
         <span class="nested-one"><b class="red">...</b></span>
-      </p>
+      </div>
+
       <!-- MEDIA TAGS -->
+
       <h3 id="media">Media tags</h3>
       <p>
         HTML provides a variety of tags to embed and display different types of media content such as images,
@@ -1110,7 +1125,9 @@
         These tags enhance web pages by adding visual and auditory elements,
         making the content more engaging and interactive. 
       </p>
+
       <!-- EMBED MEDIA TAG -->
+
       <h4>Embed</h4>
       <p>
         The <b class="red">&lt;embed&gt;</b> tag is used to embed external content, such as multimedia objects.
@@ -1119,7 +1136,9 @@
         recommended to use more specific tags like <b class="red">&lt;img&gt;</b>, <b class="red">&lt;video&gt;</b>,
         and <b class="red">&lt;audio&gt;</b> when appropriate.
       </p>
+
       <!-- EMBED TABLE -->
+
       <table>
         <tbody>
           <tr>
@@ -1150,7 +1169,9 @@
           </tr>
         </tbody>
       </table>
+
       <!-- IMAGES MEDIA TAG -->
+
       <h4>Images</h4>
       <p>
         The <b class="red">&lt;img&gt;</b> tag is used to embed images in an HTML document.
@@ -1158,28 +1179,35 @@
         <br>
         image source and the alt attribute to provide alternative text for accessibility.
       </p>
+
       <!-- IMAGE TABLE -->
+
       <table>
         <tbody>
           <tr>
-            <td class="col-50">
+            <td class="col-50 bigger-text">
               <a 
               href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img"
               target="_blank"
               class="no-link">
                 <span class="red">&lt;img</span>
+                <div class="nested-two">
                 <span class="green">src</span>
                 <span class="yellow">="image.jpg"</span>
+                <br>
                 <span class="green">alt</span>
                 <span class="yellow">="an image"</span>
                 <span class="red">&gt;</span>
+                </div>
               </a>
               </td>
             <td class="col-50 bigger-text">text</td>
           </tr>
         </tbody>
       </table>
+
       <!-- VIDEO MEDIA TAG -->
+
       <h4>Videos</h4>
       <p>
         The <b class="red">&lt;video&gt;</b> tag is used to embed video content.
@@ -1187,7 +1215,9 @@
         <br>
         video player.
       </p>
+
       <!-- VIDEO TABLE -->
+
       <table>
         <tbody>
           <tr>
@@ -1215,11 +1245,57 @@
                 <span class="red">&lt;/video&gt;</span>
               </a>
               </td>
-            <td class="col-50 bigger-text">text</td>
+            <td class="col-50 bigger-text">
+              <a 
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video"
+              target="_blank"
+              class="no-link">
+                <span class="red">&lt;video</span>
+                <div class="nested-two">
+                <span class="green">src</span>
+                <span class="yellow">="video.mp4"</span>
+                <br>
+                <span class="green">width</span>
+                <span class="yellow">="640"</span>
+                <br>
+                <span class="green">height</span>
+                <span class="yellow">="360"</span>
+                <br>
+                <span class="green">controls</span>
+                <span class="red">&gt;</span>
+                <br>
+                <span class="red">&lt;source</span>
+                <br>
+                <div class="nested-three">
+              <span class="green">src</span>
+              <span class="yellow">="video.mp4"</span>
+              <br>
+              <span class="green">type</span>
+              <span class="yellow">="video/mp4"</span>
+              <span class="red">&gt;</span>
+              </div>
+              <span class="red">&lt;source</span>
+                <br>
+                <div class="nested-three">
+              <span class="green">src</span>
+              <span class="yellow">="video.webm"</span>
+              <br>
+              <span class="green">type</span>
+              <span class="yellow">="video/webm"</span>
+              <span class="red">&gt;</span>
+                </div>
+                <span class="smaller-text italic nested-three">Video not supported</span>
+                <br>
+                <span class="red">&lt;/video&gt;</span>
+                </div>
+              </a>
+            </td>
           </tr>
         </tbody>
       </table>
+
       <!-- AUDIO MEDIA TAG -->
+
       <h4>Audios</h4>
       <p>
         The <b class="red">&lt;audio&gt;</b> tag is used to embed audio content.
@@ -1227,14 +1303,16 @@
         <br>
         options if the first source fails.
       </p>
+
       <!-- AUDIO TABLE -->
+
       <table>
         <tbody>
           <tr>
             <td class="col-50 bigger-text">
               <a 
               href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio"
-              target="_blank "
+              target="_blank"
               class="no-link">
                 <span class="red">&lt;audio</span>
                 <div class="nested-two">
@@ -1258,16 +1336,16 @@
               <span class="green">controls</span>
               <span class="red">&gt;</span>
               <div class="nested-two">
-                <span class="red">&lt;source</span>
-                <br>
-                <div class="nested-three">
+              <span class="red">&lt;source</span>
+              <br>
+              <div class="nested-three">
               <span class="green">src</span>
               <span class="yellow">="audio.mp3"</span>
               <br>
               <span class="green">type</span>
               <span class="yellow">="audio/mp3"</span>
               <span class="red">&gt;</span>
-                </div>
+              </div>
               <span class="red">&lt;source</span>
               <br>
               <div class="nested-three">

@@ -156,11 +156,11 @@ hr {
   font-size: 12px;
 }
 
-#no-link {
+.no-link {
   text-decoration: none;
 }
 
-.no-link {
+.no-link a {
   text-decoration: none;
 }
 
