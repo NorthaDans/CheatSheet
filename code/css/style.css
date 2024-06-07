@@ -2,8 +2,6 @@
 /* UNIVERSAL STYLES */
 
 * {
-  margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
   font-family: "Times New Roman", Times, serif;
   color: hsl(0, 0%, 0%);
@@ -22,13 +20,46 @@ header {
   margin: 0 auto 10px;
 }
 
-header h1 {
+h1 {
   font-family: "Jacquard 12", "Times New Roman", Times, serif;
   font-weight: 300;
   font-size: 100px;
   color: hsl(0, 0%, 0%);
   text-align: center;
   margin: 30px 15px 10px;
+}
+
+h2 {
+  font-weight: 800;
+  margin: 20px 30px 10px;
+}
+
+h3 {
+  font-weight: 800;
+  margin: 20px 30px 10px;
+}
+
+h4 {
+  font-weight: 600;
+  margin: 20px 30px 10px;
+}
+
+h5 {
+  font-weight: 600;
+  margin: 20px 30px -25px;
+}
+
+p {
+  font-weight: 400;
+  margin: 10px 30px;
+}
+
+li {
+  font-weight: 400;
+}
+
+b {
+  font-weight: 800;
 }
 
 hr {
@@ -45,13 +76,15 @@ hr {
   height: auto;
   background-color: hsl(0, 0%, 100%);
   border: 10px;
+  box-sizing: border-box;
   box-shadow: 4px 4px 10px hsla(0, 0%, 0%, 0.5);
   border-style: outset;
-  margin: 40px auto 5px;
-  box-sizing: border-box;
+  margin: 25px auto 20px;
+  padding: 0px 60px 40px;
 }
 
 .color-wall section {
+  background-color: hsl(0, 0%, 100%);
   width: 100%;
   text-align: left;
 }
@@ -63,16 +96,16 @@ nav {
 }
 
 .main-nav {
+  background-color: hsl(0, 0%, 100%);
   position: sticky;
   top: 0px;
   padding: 1px 25px 0px;
-  background-color: hsl(0, 0%, 100%);
 }
 
 .nav-backround {
-  width: 100%;
+  color: hsl(0, 0%, 100%);
+  
   height: 100%;
-  background-color: hsl(0, 0%, 100%);
   margin: 40px auto 20px;
   padding: 20px;
   box-sizing: border-box;
@@ -173,84 +206,6 @@ nav {
   text-decoration: none;
 }
 
-/* HTML INFO STYLES */
-
-.html-info {
-  text-align: left;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-.html-info h2 {
-  font-weight: 800;
-  margin: 20px 30px 10px;
-}
-
-.html-info h3 {
-  font-weight: 800;
-  margin: 20px 30px 10px;
-}
-
-.html-info h4 {
-  font-weight: 600;
-  margin: 20px 30px 10px;
-}
-
-.html-info h5 {
-  font-weight: 600;
-  margin: 20px 30px -25px;
-}
-
-.html-info p {
-  font-weight: 400;
-  margin: 10px 30px;
-}
-
-.html-info li {
-  font-weight: 400;
-  margin: 10px 80px;
-}
-
-.html-info b {
-  font-weight: 800;
-}
-
-/* HTML HISTORY STYLES */
-
-.html-history {
-  text-align: left;
-  margin-left: 40px;
-}
-
-.html-history h3 {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 800;
-  margin: 20px 30px 10px;
-}
-
-.html-history p {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 400;
-  margin: 40px 30px 30px;
-}
-
-.html-history h4 {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 600;
-  margin: 40px 30px 20px;
-}
-
-.html-history li {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 400;
-  margin: 10px 80px;
-}
-
-.html-history b {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 800;
-}
-
 /* STRUCTURE & NESTED */
 
 .structure b {
@@ -277,10 +232,18 @@ nav {
   padding-left: 50px;
 }
 
+.nested-list ul {
+  padding-left: 80px;
+}
+
+.nested-list li {
+  margin: 10px auto;
+}
+
 /* TABLE STYLES */
 
 table {
-  width: 85%;
+  width: 93%;
   border-collapse: collapse;
   margin: 35px 30px 10px;
 }

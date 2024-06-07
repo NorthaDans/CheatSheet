@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-  
-<!-- HEAD SECTION-->
-
+  <!-- HEAD SECTION-->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,33 +18,25 @@
     <title>Coding Cheat Sheet</title>
   </head>
   <body>
-    
-<!-- END OF 'HEAD SECTION' -->
-<!-- HEADER SECTION -->
-
+    <!-- END OF 'HEAD SECTION' -->
+    <!-- HEADER SECTION -->
     <header>
-      <h1 class="red">HTML5 Cheat Sheet</h1>
+      <h1 id="header" class="red">HTML5 Cheat Sheet</h1>
     </header>
-
-<!-- END OF 'HEADER SECTION' -->
-<!-- COLOUR WALL -->
-
+    <!-- END OF 'HEADER SECTION' -->
+    <!-- COLOUR WALL -->
     <div class="color-wall">
-      
-<!-- NAVIGATION SECTION -->
-
+      <!-- NAVIGATION SECTION -->
       <section class="main-nav">
         <div class="nav-background">
-
-<!-- PAGE NAVIGATION -->
-
+          <!-- PAGE NAVIGATION -->
           <nav class="page-nav">
             <ul>
               <li class="return-nav">
                 <a href="./html-info.html">
-                  <img
-                    src="../../images/double-left-red.png"
-                    alt="left navigation arrow">
+                <img
+                  src="../../images/double-left-red.png"
+                  alt="left navigation arrow">
                 </a>
               </li>
               <li class="nav-img-meny">
@@ -56,17 +46,15 @@
               </li>
               <li class="advance-nav">
                 <a href="./html-info-history.html">
-                  <img
-                    src="../../images/double-right-red.png"
-                    alt="right navigation arrow">
+                <img
+                  src="../../images/double-right-red.png"
+                  alt="right navigation arrow">
                 </a>
               </li>
             </ul>
           </nav>
-
-<!-- END OF 'PAGE NAVIGATION' -->
-<!-- INTERNAL NAVIGATION -->
-
+          <!-- END OF 'PAGE NAVIGATION' -->
+          <!-- INTERNAL NAVIGATION -->
           <nav class="nav-top no-link">
             <ul>
               <li>
@@ -74,39 +62,218 @@
               </li>
               <li>&#124;</li>
               <li>
-                <a href="#general"><b>General</b></a>
+                <a href="#general"><b>Introduction</b></a>
               </li>
               <li>&#124;</li>
               <li>
-                <a href="#formatting"><b>Formatting</b></a>
+                <a href="#advantages"><b>Advantages</b></a>
               </li>
               <li>&#124;</li>
               <li>
-                <a href="#table"><b>Table</b></a>
+                <a href="#seo"><b>SEO</b></a>
               </li>
               <li>&#124;</li>
               <li>
-                <a href="#media"><b>Media</b></a>
+                <a href="#readability"><b>Readability</b></a>
+              </li>
+              <li>&#124;</li>
+              <li>
+                <a href="#summary"><b>Summary</b></a>
               </li>
             </ul>
           </nav>
-
-<!-- END OF 'INTERNAL NAVIGATION' -->
-
+          <!-- END OF 'INTERNAL NAVIGATION' -->
           <hr>
         </div>
       </section>
-
-<!-- END OF 'NAVIGATION SECTION' -->
-<!-- MAIN SECTION -->
-<!-- HTML SEMANTIC -->
-
-      <section class="html-semantic"></section>
+      <!-- END OF 'NAVIGATION SECTION' -->
+      <!-- MAIN SECTION -->
+      <!-- HTML SEMANTIC -->
+      <section class="html-inf nested-list">
+        <!-- SEMANTIC & NON-SEMANTIC HTML -->
+        <!-- TWO STRUCTURES INTRO -->
+        <h2 id="general">Two structures of HTML</h2>
+        <p>
+          When coding with HTML, we use two primary structures: non-semantic and semantic.
+          These structures differ in how they convey information to the browser.
+        </p>
+        <!-- END OF 'TWO STRUCTURES INFO' -->
+        <!-- NON SEMANTIC HTML -->
+        <h3>Non-Semantic HTML</h3>
+        <p>
+          Non-semantic elements, like <b>&lt;div&gt;</b> and <b>&lt;span&gt;</b>,
+          do not provide information about the content they contain.
+          They are primarily used to group content together without adding meaning.
+        </p>
+        <!-- END OF 'NON SEMANTIC HTML' -->
+        <!-- NON SEMANTIC STRUCTURE -->
+        <div class="structure nested-three no-link">
+          <b class="red">&lt;html&gt;</b>
+          <br>
+          <span class="italic nested-two smaller-text">...</span>
+          <br>
+          <span class="nested-two"><b class="red">&lt;div&gt;</b></span>
+          <span class="italic smaller-text">...</span>
+          <b class="red">&lt;div&gt;</b>
+          <br>
+          <span class="nested-two"><b class="red">&lt;div&gt;</b></span>
+          <span class="italic smaller-text">...</span>
+          <b class="red">&lt;div&gt;</b>
+          <br>
+          <span class="nested-two"><b class="red">&lt;div&gt;</b></span>
+          <span class="italic smaller-text">...</span>
+          <b class="red">&lt;div&gt;</b>
+          <br>
+          <span class="italic nested-two smaller-text">...</span>
+          <br>
+          <b class="red">&lt;/html&gt;</b>
+        </div>
+        <!-- END OF 'NON SEMANTIC STRUCTURE' -->
+        <!-- SEMANTIC HTML INTRO -->
+         <h3>Semantic HTML</h3>
+         <p>
+          Semantic elements clearly describe their meaning in a way that both the browser and
+          developers can understand.
+          These elements, such as <b>&lt;header&gt;</b>, <b>&lt;article&gt;</b>,
+          <b>&lt;footer&gt;</b>, and <b>&lt;nav&gt;</b>,
+          convey the purpose of the content contained within them.
+         </p>
+        <!-- END OF 'SEMANTIC HTML INTRO' -->
+        <!-- NON SEMANTIC STRUCTURE -->
+        <div class="structure nested-three no-link">
+          <b class="red">&lt;html&gt;</b>
+          <br>
+          <span class="italic nested-two smaller-text">...</span>
+          <br>
+          <span class="nested-two"><b class="red">&lt;header&gt;</b></span>
+          <br>
+          <span class="nested-four"><b class="red">&lt;nav&gt;</b></span>
+          <span class="italic smaller-text">...</span>
+          <b class="red">&lt;/nav&gt;</b>
+          <br>
+          <span class="nested-two"><b class="red">&lt;/header&gt;</b></span>
+          <br>
+          <span class="nested-two"><b class="red">&lt;article&gt;</b></span>
+          <br>
+          <span class="nested-four"><b class="red">&lt;figure&gt;</b></span>
+          <span class="italic smaller-text">...</span>
+          <b class="red">&lt;/figure&gt;</b>
+          <br>
+          <span class="nested-two"><b class="red">&lt;/article&gt;</b></span>
+          <br>
+          <span class="nested-two"><b class="red">&lt;footer&gt;</b></span>
+          <span class="italic smaller-text">...</span>
+          <b class="red">&lt;/footer&gt;</b>
+          <br>
+          <span class="italic nested-two smaller-text">...</span>
+          <br>
+          <b class="red">&lt;/html&gt;</b>
+        </div>
+        <!-- END OF 'SEMANTIC STRUCTURE' -->
+        <!-- END OF 'SEMANTIC & NON-SEMANTIC HTML' -->
+        <!-- ADVANTAGES OF SEMANTIC HTML -->
+        <h2 id="advantages">Advantages of Using Semantic HTML</h2>
+        <!-- ACCESABILITY SECTION -->
+        <h3>Accessibility</h3>
+        <ul class="no-link">
+          <li>
+            Semantic HTML enhances accessibility by making webpages more navigable for users with
+            disabilities.
+            Screen readers and other assistive technologies can better interpret and present the
+            content.
+          </li>
+          <li>
+            It also improves accessibility on mobile devices,
+            ensuring a more consistent and understandable user experience.
+          </li>
+          <li>
+            <a 
+            href="https://webaim.org/intro/"
+            target="_blank"
+            class="blue">
+            Introduction to Web Accessibility
+          </a>
+          </li>
+          <li>
+            <a 
+            href="https://developer.mozilla.org/en-US/docs/Learn/Accessibility"
+            target="_blank"
+            class="blue">
+            MDN Web Docs on Accessibility
+          </a>
+          </li>
+        </ul>
+        <!-- END OF 'ACCESABILITY SECTION' -->
+        <!-- SEO SECTION -->
+        <h3 id="seo">Search Engine Optimization &#10088;SEO&#10089;</h3>
+        <ul class="no-link">
+          <li>
+            Semantic elements help search engines understand the structure and content of a webpage,
+            which can improve search engine rankings.
+          </li>
+          <li>
+            This increases the visibility and visitor count of a website,
+            as search engines can better identify and prioritize important content.
+          </li>
+          <li>
+            <a 
+            href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+            target="_blank"
+            class="blue">
+            Google SEO Starter Guide
+          </a>
+          </li>
+          <li>
+            <a 
+            href="https://developer.mozilla.org/en-US/docs/Glossary/SEO"
+            target="_blank"
+            class="blue">
+            MDN Web Docs on SEO
+          </a>
+          </li>
+        </ul>
+        <!-- END OF 'SEO SECTION' -->
+        <!-- READABILITY SECTION -->
+         <h3 id="readability">Readability and Maintainability</h3>
+         <ul class="no-link">
+          <li>
+            Semantic HTML makes the source code more readable and easier to maintain for developers.
+            It provides a clear structure and meaning,
+            simplifying the development process.
+          </li>
+          <li>
+            Just as clearly marked aisles in a store help shoppers find items quickly,
+            semantic HTML helps developers navigate and understand the code more efficiently.
+          </li>
+          <li>
+            <a 
+            href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5/HTML5_semantics"
+            target="_blank"
+            class="blue">
+            MDN Web Docs on HTML5 Semantic Elements
+          </a>
+          </li>
+        </ul>
+        <!-- END OF 'READABILITY SECTION' -->
+        <!-- SUMMARY SECTION -->
+         <h3 id="summary">Combining Structures</h3>
+         <p>
+          While it is possible to mix semantic and non-semantic elements,
+          using semantic HTML exclusively is recommended due to its numerous benefits.
+          Semantic elements improve code clarity, accessibility, and SEO, making them superior to
+          non-semantic elements.
+        </p>
+         <p>
+          In summary, opting for semantic HTML whenever possible enhances both the user experience
+          and the development process, resulting in more accessible, search-engine-friendly,
+          and maintainable web pages.
+        </p>
+        <!-- END OF 'SUMMARY SECTION' -->
+        <!-- END OF 'ADVANTAGES OF SEMANTIC HTML' -->
+      </section>
     </div>
-
-<!-- END OF 'HTML SEMANTIC' -->
-<!-- END OF 'COLOUR WALL'-->
-<!-- END OF 'MAIN SECTION' -->
-
+    <!-- END OF 'HTML SEMANTIC' -->
+    <!-- END OF 'COLOUR WALL'-->
+    <!-- END OF 'MAIN SECTION' -->
   </body>
 </html>
