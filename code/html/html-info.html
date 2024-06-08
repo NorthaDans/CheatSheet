@@ -21,7 +21,7 @@
     <!-- END OF 'HEAD SECTION'-->
     <!-- HEADER SECTION -->
     <header>
-      <h1 class="red">HTML5 Cheat Sheet</h1>
+      <h1 id="header" class="red">HTML5 Cheat Sheet</h1>
     </header>
     <!-- END OF 'HEADER SECTION' -->
     <!-- COLOUR WALL -->
@@ -75,6 +75,10 @@
               <li>&#124;</li>
               <li>
                 <a href="#media"><b>Media</b></a>
+              </li>
+              <li>&#124;</li>
+              <li>
+                <a href="#form"><b>Form</b></a>
               </li>
             </ul>
           </nav>
@@ -1123,7 +1127,7 @@
           <span class="nested-one"><b class="red">...</b></span>
         </div>
         <!-- END OF 'TABLE TAGS STRUCTURE' -->
-        <!-- MEDIA TAGS -->
+        <!-- MEDIA TAGS SECTION -->
         <!-- MEDIA INTRO -->
         <h3 id="media">Media tags</h3>
         <p>
@@ -1518,7 +1522,8 @@
         <h4>Audio</h4>
         <p>
           The <b class="red">&lt;audio&gt;</b> tag is used to embed audio content.
-          You can specify multiple sources within the &lt;audio&gt; tag to provide fallback
+          You can specify multiple sources within the <b class="red">&lt;audio&gt;</b> tag to
+          provide fallback
           <br>
           options if the first source fails.
         </p>
@@ -1560,7 +1565,7 @@
         </table>
         <!-- END OF 'AUDIO TABLE "REGULAR"' -->
         <!-- AUDIO TABLE "SEVERAL SOURCES" -->
-        <h5>Several sources audios</h5>
+        <h5>Several source audios</h5>
         <table>
           <tbody>
             <tr>
@@ -1600,9 +1605,9 @@
                 </a>
               </td>
               <td class="col-50">
-                You can embed an audio file in a web page using the <b>&lt;audio&gt;</b>
-                tag with multiple <b>&lt;source&gt;</b> elements to provide different formats for
-                better browser compatibility.
+                You can embed an audio file in a web page using the <b>&lt;audio&gt;</b> tag with
+                multiple <b>&lt;source&gt;</b> elements to provide different formats for better
+                browser compatibility.
                 <br>
                 Each <b>&lt;source&gt;</b> element specifies a different audio file format using the 
                 <b>src</b> and <b>type</b> attributes.
@@ -1615,6 +1620,500 @@
           </tbody>
         </table>
         <!-- END OF 'AUDIO TABLE "SEVERAL SOURCES"' -->
+        <!-- END OF 'MEDIA TAGS SECTION' -->
+        <!-- FORM SECTION -->
+        <!-- FORM INTRO -->
+        <h3 id="form">Form</h3>
+        <p>
+          The <b class="red">&lt;form&gt;</b> attribute is used to connect and send information.
+          The tag needs to be supplied with an instruction on where to send data and which http
+          requests to make.
+        </p>
+        <!-- FORM INTRO STRUCTURE 1 -->
+        <div class="structure nested-two">
+          <b class="red">&lt;form</b>
+          <br>
+          <span class="nested-two"><b class="red">action="/example.html"</b></span>
+          <br>
+          <span class="nested-two"><b class="red">method="POST"&gt;</b></span>
+          <br>
+          <b class="red">&lt;/form&gt;</b>
+        </div>
+        <!-- END OF 'FORM INTRO STRUCTURE 1' -->
+        <p>
+          In the above example the data will be sent to example.html via a <b>POST method</b>. 
+          The <b>action</b> thus informs where the request is due to be sent and <b>method</b>
+          includes a http verb that is included in the http request which instructs which http
+          request to make to deliver the data.
+        </p>
+        <p>
+          It would be helpful to provide a header so that users know what this
+          <b class="red">&lt;form&gt;</b> is about.
+          We could also add a paragraph to provide even more detail. 
+        </p>
+        <p>Let&#39;s see an example of this in code:</p>
+        <!-- FORM INTRO SRUCTURE 2 -->
+        <div class="structure nested-two">
+          <b class="red">&lt;form action="/example.html" method="POST"&gt;</b>
+          <br>
+          <span class="nested-one"><b class="red">&lt;h1&gt;</b></span>
+          <span class="smaller-text italic">Creating a form</span>
+          <b class="red">&lt;/h1&gt;</b>
+          <br>
+          <span class="nested-one"><b class="red">&lt;p&gt;</b></span>
+          <span class="smaller-text italic">...</span>
+          <b class="red">&lt;/p&gt;</b>
+          <br>
+          <b class="red">&lt;/form&gt;</b>
+        </div>
+        <!-- END OF 'FORM INTRO SRUCTURE 2' -->
+        <!-- END OF 'FORM INTRO' -->
+        <!-- INPUT SUB-SECTION -->
+        <h4>Input</h4>
+        <p>
+          The <b class="red">&lt;input&gt;</b> tag creates an input field that users can type data
+          into.
+          It also has a <b>type</b> attribute.
+          This decides how it renders on the screen and what kind of data it can accept.
+          The <b>type</b> attribute is set by default to <b>text</b> which renders a text box that
+          users type into.
+        </p>
+        <p>
+          The tag strictly requires that it contains a <b>name</b> attribute.
+          If it is missing, the data will not be sent once submitted.
+          <br>
+          The value of the <b>value</b> attribute and of the <b>name</b> are both sent in text form
+          upon submission.
+        </p>
+        <!-- INPUT TABLE 1 -->
+        <table>
+          <tr>
+            <td class="col-50 bigger-text">
+              <span class="red">&lt;form</span>
+              <br>
+              <span class="nested-two green">action</span>
+              <span class="yellow">="/example.html"</span>
+              <br>
+              <span class="nested-two green">method</span>
+              <span class="yellow">="POST"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;input</span>
+              <br>
+              <span class="nested-four green">type</span>
+              <span class="yellow">="text"</span>
+              <br>
+              <span class="nested-four green">name</span>
+              <span class="yellow">="first-text-field"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="red">&lt;/form&gt;</span>
+            </td>
+            <td class="col-50 table-code">
+              <form>
+                <input type="text">
+              </form>              
+            </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                When you type into the text box,
+                the entered text will be assigned to the `value` attribute of the input field.
+                <br>
+                Upon submission, the form will send a POST request to the specified URL.
+                The data sent with this request will include the name-value pair defined by the
+                input field's `name` attribute `first-text-field` and the user's input as its value.
+                <br>
+                This process allows the server to receive and process the user&#39;s input.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <!-- END OF 'INPUT TABLE 1' -->
+        <!-- INPUT TABLE 2 -->
+        <p>
+          We could also assign a default value for the value attribute so that users have a
+          pre-filled text field when they first see the rendered form like so:
+        </p>
+        <table>
+          <tr>
+            <td class="col-50 bigger-text">
+              <span class="red">&lt;form</span>
+              <br>
+              <span class="nested-two green">action</span>
+              <span class="yellow">="/example.html"</span>
+              <br>
+              <span class="nested-two green">method</span>
+              <span class="yellow">="POST"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;input</span>
+              <br>
+              <span class="nested-four green">type</span>
+              <span class="yellow">="text"</span>
+              <br>
+              <span class="nested-four green">name</span>
+              <span class="yellow">="first-text-field"</span>
+              <br>
+              <span class="nested-four green">value</span>
+              <span class="yellow">="already pre-filled"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="red">&lt;/form&gt;</span>
+            </td>
+            <td class="col-50 table-code">
+              <form>
+                <input type="text" value="already pre-filled">
+              </form>              
+            </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                When you type into the text box,
+                the entered text will be assigned to the <b>value</b> attribute of the input field.
+                Upon submission, the form will send a POST request to the specified URL.
+                <br>
+                The data sent with this request will include the name-value pair defined by the
+                input field's <b>name</b> attribute `first-text-field` and the user's input as its
+                value.
+                <br>
+                This process allows the server to receive and process the user's input.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <!-- END OF 'INPUT TABLE 2' -->
+        <!-- INPUT TABLE 3 -->
+        <p>
+          The <b class="red">&lt;label&gt;</b> element has an opening and closing tag and displays
+          text that is written between the opening and closing tags.
+          To associate a <b class="red">&lt;label&gt;</b> and an <b class="red">&lt;input&gt;</b>,
+          the <b class="red">&lt;input&gt;</b> needs an <b>id</b> attribute.
+          We then assign the <b>for</b> attribute of the <b class="red">&lt;label&gt;</b> element
+          with the value of the <b>id</b> attribute of <b class="red">&lt;input&gt;</b>, like so:
+        </p>
+        <table>
+          <tr>
+            <td class="col-50 bigger-text">
+              <span class="red">&lt;form</span>
+              <br>
+              <span class="nested-two green">action</span>
+              <span class="yellow">="/example.html"</span>
+              <br>
+              <span class="nested-two green">method</span>
+              <span class="yellow">="POST"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;label</span>
+              <span class="green">for</span>
+              <span class="yellow">="meal"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-four smaller-text italic">What do you want to eat?</span>
+              <br>
+              <span class="nested-two red">&lt;/label&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;br&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;input</span>
+              <br>
+              <span class="nested-four green">type</span>
+              <span class="yellow">="text"</span>
+              <br>
+              <span class="nested-four green">name</span>
+              <span class="yellow">="food"</span>
+              <br>
+              <span class="nested-four green">id</span>
+              <span class="yellow">="meal"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="red">&lt;/form&gt;</span>
+            </td>
+            <td class="col-50 table-code">
+              <form>
+                <label for="meal">What do you want to eat?</label>
+                <br>
+                <input type="text" id="meal">
+              </form>              
+            </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                Another benefit for using the <b>&lt;label&gt;</b> element is when this element is
+                clicked, the corresponding <b>&lt;input&gt;</b> is highlighted/selected.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <!-- END OF 'INPUT TABLE 3'-->
+        <!-- END OF 'INPUT SUB-SECTION' -->
+        <!-- PASSWORD SUB-SECTION -->
+        <!-- PASSWORD INTRO -->
+        <h4>Password</h4>
+        <p>
+          An <b class="red">&lt;input type ="password"&gt;</b> element will replace input text with
+          another character like an asterisk &#x002A; or a dot &#x2022;. 
+          The code below provides an example of how to create a password field:
+        </p>
+        <!-- END OF 'PASSWORD INTRO' -->
+        <!-- PASSWORD TABLE -->
+        <table>
+          <tr>
+            <td class="col-50 bigger-text">
+              <span class="red">&lt;form</span>
+              <br>
+              <span class="nested-two red">&lt;label</span>
+              <span class="green">for</span>
+              <span class="yellow">="user-password"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-four smaller-text italic">Password:</span>
+              <br>
+              <span class="nested-two red">&lt;/label&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;input</span>
+              <br>
+              <span class="nested-four green">type</span>
+              <span class="yellow">="password"</span>
+              <br>
+              <span class="nested-four green">name</span>
+              <span class="yellow">="user-password"</span>
+              <br>
+              <span class="nested-four green">id</span>
+              <span class="yellow">="user-password"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="red">&lt;/form&gt;</span>
+            </td>
+            <td class="col-50 table-code">
+              <form>
+                <label for="user-password">Password:</label>
+                <input type="password" id="user-password">
+              </form>              
+            </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                Despite being visually obscured the data is sent as normal when submitted.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <!-- END OF 'PASSWORD TABLE' -->
+        <!-- END OF 'PASSWORD SUB-SECTION' -->
+        <!-- NUMBERS SUB-SECTION -->
+        <!-- NUMBERS INTRO -->
+         <h4>Numbers</h4>
+         <p>
+          By setting <b class="red">type="number"</b> for an <b class="red">&lt;input&gt;</b> we can
+          restrict what users type into the input field to just numbers and a few special
+          characters like - . and +.
+          <br>
+          We can also provide a step attribute which creates arrows inside the input field to increase
+          or decrease by the value of the step attribute.
+        </p>
+        <!-- END OF 'NUMBERS INTRO' -->
+        <!-- NUMBERS TABLE 1 -->
+        <table>
+          <tr>
+            <td class="col-50 bigger-text">
+              <span class="red">&lt;form</span>
+              <br>
+              <span class="nested-two red">&lt;label</span>
+              <span class="green">for</span>
+              <span class="yellow">="years"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-four smaller-text italic">Years of experience:</span>
+              <br>
+              <span class="nested-two red">&lt;/label&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;input</span>
+              <br>
+              <span class="nested-four green">type</span>
+              <span class="yellow">="number"</span>
+              <br>
+              <span class="nested-four green">name</span>
+              <span class="yellow">="years"</span>
+              <br>
+              <span class="nested-four green">id</span>
+              <span class="yellow">="years"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="red">&lt;/form&gt;</span>
+            </td>
+            <td class="col-50 table-code">
+              <form>
+                <label for="years">Years of experience:</label>
+                <input type="number" id="years">
+              </form>              
+            </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                x
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <!-- END OF 'NUMBERS TABLE 1' -->
+        <!-- NUMBERS TABLE 2 -->
+        <p>To limit the number values a user can type we use the <b>range</b> attribute:</p>
+        <table>
+          <tr>
+            <td class="col-50 bigger-text">
+              <span class="red">&lt;form</span>
+              <br>
+              <span class="nested-two red">&lt;label</span>
+              <span class="green">for</span>
+              <span class="yellow">="volume"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-four smaller-text italic">Volume control</span>
+              <br>
+              <span class="nested-two red">&lt;/label&gt;</span>
+              <br>
+              <span class="red">&lt;br&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;input</span>
+              <br>
+              <span class="nested-four green">type</span>
+              <span class="yellow">="range"</span>
+              <br>
+              <span class="nested-four green">name</span>
+              <span class="yellow">="volume"</span>
+              <br>
+              <span class="nested-four green">id</span>
+              <span class="yellow">="volume"</span>
+              <br>
+              <span class="nested-four green">min</span>
+              <span class="yellow">="0"</span>
+              <br>
+              <span class="nested-four green">max</span>
+              <span class="yellow">="10"</span>
+              <br>
+              <span class="nested-four green">step</span>
+              <span class="yellow">="1"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="red">&lt;/form&gt;</span>
+            </td>
+            <td class="col-50 table-code">
+              <form>
+                <label for="volume">volume</label>
+                <br>
+                <input type="range" id="volume" min="0" max="10" step="1">
+              </form>              
+            </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                Every time the slider moves by one, 
+                the value of the <b>&lt;input&gt;&#39;</b>s value attribute changes.
+                <br>
+                Smaller step values will make the slider move more fluidly,
+                whereas larger step values will make the slider move more noticeably
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <!-- END OF 'NUMBERS TABLE 2' -->
+        <!-- END OF 'NUMBERS SUB-SECTION' -->
+        <!-- CHECKBOXES SUB-SECTION -->
+        <!-- CHECKBOXES INTRO -->
+        <h4>Checkboxes</h4>
+        <p>
+          In a <b class="red">&lt;form&gt;</b> we would use the <b class="red">&lt;input&gt;</b>
+          element and set <b>type="checkbox"</b>.
+          </p>
+        <!-- END OF 'CHECKBOXES INTRO' -->
+        <!-- CHECKBOXES TABLE 1 -->
+        <table>
+          <tr>
+            <td class="col-50 bigger-text">
+              <span class="red">&lt;form&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;p&gt;</span>
+              <span class="smaller-text italic">Choose fruits:</span>
+              <span class="red">&lt;/p&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;label</span>
+              <span class="green">for</span>
+              <span class="yellow">="Mango"</span>
+              <span class="red">&gt;</span>
+              <span class="smaller-text italic">Mango</span>
+              <span class="red">&lt;/label&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;input</span>
+              <br>
+              <span class="nested-four green">type</span>
+              <span class="yellow">="checkbox"</span>
+              <br>
+              <span class="nested-four green">name</span>
+              <span class="yellow">="fruit"</span>
+              <br>
+              <span class="nested-four green">id</span>
+              <span class="yellow">="mango"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-four green">value</span>
+              <span class="yellow">="mango"</span>
+              <br>
+              <span class="red">&lt;br&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;label</span>
+              <span class="green">for</span>
+              <span class="yellow">="Banana"</span>
+              <span class="red">&gt;</span>
+              <span class="smaller-text italic">Banana</span>
+              <span class="red">&lt;/label&gt;</span>
+              <br>
+              <span class="nested-two red">&lt;input</span>
+              <br>
+              <span class="nested-four green">type</span>
+              <span class="yellow">="checkbox"</span>
+              <br>
+              <span class="nested-four green">name</span>
+              <span class="yellow">="fruit"</span>
+              <br>
+              <span class="nested-four green">id</span>
+              <span class="yellow">="banana"</span>
+              <span class="red">&gt;</span>
+              <br>
+              <span class="nested-four green">value</span>
+              <span class="yellow">="banana"</span>
+              <br>
+              <span class="nested-two red">&lt;/form&gt;</span>
+            </td>
+            <td>
+              <form class="table-code">
+                <p>Choose fruits:</p>
+                <label for="mango">Mango</label>
+                <input type="checkbox" name="fruit" id="mango" value="mango">
+                <br>
+                <label for="banana">Banana</label>
+                <input type="checkbox" name="fruit" id="mango" value="mango">
+              </form>
+            </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td colspan="2">
+                x
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <!-- END OF 'CHECKBOXES TABLE 1' -->
+        <!-- CHECKBOXES TABLE 2 -->
+        <!-- END OF 'CHECKBOXES TABLE 2' -->
+        <!-- END OF 'CHECKBOXES SUB-SECTION' -->
       </section>
     </div>
     <!-- END OF 'HTML INFO' -->

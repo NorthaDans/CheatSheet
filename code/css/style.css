@@ -207,6 +207,10 @@ nav {
 
 /* STRUCTURE & NESTED */
 
+.structure {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .structure b {
   font-weight: 600;
 }
@@ -244,7 +248,7 @@ nav {
 table {
   width: 93%;
   border-collapse: collapse;
-  margin: 35px 30px 10px;
+  margin: 35px 30px;
 }
 
 .col-25 {
@@ -253,6 +257,10 @@ table {
 
 .col-50 {
   width: 50%;
+}
+
+.col-100 {
+  width: 100%;
 }
 
 table thead tr {
@@ -285,6 +293,16 @@ table td {
   padding: 12px 15px;
 }
 
+.table-code {
+  text-align: center;
+}
+
+table tfoot tr {
+  background-color: hsl(0, 0%, 78%);
+  color: hsl(0, 0%, 0%);
+  height: 50px;
+}
+
 tr a {
   color: hsl(0, 0%, 0%);
   width: 100%;
@@ -292,6 +310,7 @@ tr a {
 
 tr:hover td,
 tr:hover th,
+tr:hover label,
 tr:hover span,
 tr:hover a,
 tr:hover b,
